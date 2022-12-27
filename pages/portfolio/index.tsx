@@ -22,10 +22,7 @@ const Portfolio: NextPage<PortfolioProps> = ({ projects }) => {
                     <Image
                         src={`/portfolio/images/${project.name}.png`}
                         alt={project.title}
-                        height="100%"
-                        width="100%"
-                        layout="fill"
-                        objectFit="contain" />
+                        fill />
                 </div>
             </div>
         )
