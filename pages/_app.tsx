@@ -14,8 +14,8 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
 
       <header className={styles.header}>
-        <h2><Link href="/"><a>Mikko Vuorinen</a></Link></h2>
-        <Link href="/portfolio"><a>Portfolio</a></Link>
+        <h2><Link href="/">Mikko Vuorinen</Link></h2>
+        <Link href="/portfolio">Portfolio</Link>
       </header>
 
       <main className={styles.main}>

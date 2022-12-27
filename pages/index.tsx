@@ -10,7 +10,7 @@ const Home: NextPage = () => {
             </h1>
 
             <p className={styles.description}>
-                <Link href="/portfolio"><a>Here is a lists some of my website projects.</a></Link>
+                <Link href="/portfolio">Here is a lists some of my website projects.</Link>
             </p>
         </>
     )
