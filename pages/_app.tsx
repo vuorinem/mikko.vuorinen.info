@@ -4,9 +4,11 @@ import Head from 'next/head'
 import styles from './app.module.css'
 import Link from 'next/link'
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps, router }: AppProps) {
+  const getContainerClasses = () => styles.container + (router.route === '' ? ' home' : '');
+
   return (
-    <div className={styles.container}>
+    <div className={getContainerClasses()}>
       <Head>
         <title>Mikko Vuorinen</title>
         <meta name="description" content="Portfolio and personal website of software developer Mikko Vuorinen" />
