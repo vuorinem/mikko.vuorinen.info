@@ -17,7 +17,7 @@ const Portfolio: NextPage<PortfolioProps> = ({ projects }) => {
                 <div key={project.name} className={styles.project}>
                     <div className={styles.info}>
                         <h2>{project.title}</h2>
-                        {project.text ? <p dangerouslySetInnerHTML={{ __html: project.text }}></p> : ""}
+                        {project.text ? <p>{project.text}</p> : ""}
                         {project.link ? <p><ExternalLink href={project.link}>{project.link.replace(/https?:\\\\/, "")}</ExternalLink></p> : ""}
                     </div>
                     <div className={styles.screenshot}>
