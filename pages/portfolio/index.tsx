@@ -1,9 +1,9 @@
 import { GetStaticProps, NextPage } from "next"
 import Image from "next/image"
-import Link from "next/link"
 import styles from './index.module.css'
 import { Project } from "../../data/portfolio/Project"
 import projects from "../../data/portfolio/projects.json"
+import ExternalLink from "../../components/external-link"
 
 type PortfolioProps = {
     projects: Project[]
@@ -16,7 +16,7 @@ const Portfolio: NextPage<PortfolioProps> = ({ projects }) => {
                 <div className={styles.info}>
                     <h2>{project.title}</h2>
                     {project.text ? <p dangerouslySetInnerHTML={{ __html: project.text }}></p> : ""}
-                    {project.link ? <p><Link href={project.link}>{project.link.replace(/https?:\\\\/, "")}</Link></p> : ""}
+                    {project.link ? <p><ExternalLink href={project.link}>{project.link.replace(/https?:\\\\/, "")}</ExternalLink></p> : ""}
                 </div>
                 <div className={styles.screenshot}>
                     <Image
