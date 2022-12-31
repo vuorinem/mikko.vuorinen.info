@@ -8,7 +8,7 @@ const Home: NextPage = () => {
     return (
         <div className={styles.home}>
             <p className={styles.description}>
-                Hi, I'm a software engineer from Finland with a passion for
+                Hi, I&apos;m a software engineer from Finland with a passion for
                 learning every day, and applying what I have learned to create
                 the best possible software, teams, organisations and experiences.
             </p>
