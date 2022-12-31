@@ -8,7 +8,7 @@
     justify-items: start;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 450px) {
     .socialLinks {
         grid-template-columns: initial;
         grid-template-rows: initial;
@@ -17,6 +17,10 @@
 
 .socialLinks a {
     font-size: 0.7rem;
+}
+
+.socialLinks a:hover {
+    color: var(--link-color);
 }
 
 .icon  {

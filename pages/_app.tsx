@@ -3,9 +3,18 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import SocialLinks from '../components/social-links'
+import { Waiting_for_the_Sunrise } from '@next/font/google'
 
 import '../styles/globals.css'
 import styles from './app.module.css'
+
+const headerFont = Waiting_for_the_Sunrise({
+  subsets: ['latin'],
+  weight: '400',
+});
+
+let transitionTimeout: NodeJS.Timeout | null = null;
+let transitionCanComplete: boolean = false;
 
 function MyApp({ Component, pageProps, router }: AppProps) {
   const getContainerClasses = () => styles.container + (router.route === '/' ? ' ' + styles.home : '');
@@ -13,9 +22,42 @@ function MyApp({ Component, pageProps, router }: AppProps) {
   const [transitionClass, setTransitionClass] = useState('');
 
   useEffect(() => {
-    router.events.on("routeChangeStart", () => setTransitionClass(styles.pageChanging));
-    router.events.on("routeChangeComplete", () => setTransitionClass(''));
-  }, [router.events]);
+    const handleRouteChangeStart = () => {
+      setTransitionClass(styles.pageChanging);
+
+      if (transitionTimeout !== null) {
+        clearTimeout(transitionTimeout);
+        transitionTimeout = null;
+      }
+
+      const handleTransitionEndTimeout = () => {
+        if (transitionCanComplete) {
+          setTransitionClass('');
+          transitionTimeout = null;
+          transitionCanComplete = false;
+        } else {
+          transitionTimeout = setTimeout(handleTransitionEndTimeout, 100);
+        }
+      };
+
+      transitionTimeout = setTimeout(handleTransitionEndTimeout, 100);
+
+      return true;
+    };
+
+    const handleRouteChangeComplete = () => transitionCanComplete = true;
+    const handleTransitionError = () => setTransitionClass('');
+
+    router.events.on('routeChangeStart', handleRouteChangeStart);
+    router.events.on('routeChangeComplete', handleRouteChangeComplete);
+    router.events.on('routeChangeError', handleTransitionError);
+
+    return () => {
+      router.events.off('routeChangeStart', handleRouteChangeStart);
+      router.events.off('routeChangeComplete', handleRouteChangeComplete);
+      router.events.off('routeChangeError', handleTransitionError);
+    };
+  }, [router, router.events]);
 
   return (
     <div className={getContainerClasses()}>
@@ -27,7 +69,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
       </Head>
 
       <header className={styles.header}>
-        <h1>
+        <h1 className={headerFont.className}>
           <Link href="/">
             Mikko<br />
             Vuorinen
