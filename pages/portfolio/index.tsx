@@ -1,9 +1,10 @@
 import { GetStaticProps, NextPage } from "next"
 import Image from "next/image"
-import styles from './index.module.css'
 import { Project } from "../../data/portfolio/Project"
 import projects from "../../data/portfolio/projects.json"
 import ExternalLink from "../../components/external-link"
+
+import styles from './index.module.css'
 
 type PortfolioProps = {
     projects: Project[]
