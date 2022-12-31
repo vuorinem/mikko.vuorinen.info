@@ -1,7 +1,7 @@
 [
     {
         "name": "naturalreading",
-        "type": "freelance",
+        "type": "personal",
         "title": "Reader web application",
         "text": "Application for stydying reading on electonic devices (2018)",
         "tech": "TS/Aurelia, C#/.NET, Azure, Vercel"

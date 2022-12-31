@@ -3,29 +3,43 @@
   padding: 0 2rem;
   display: grid;
   grid-template-rows: auto 1fr auto;
-}
-
-.container.home {
-  grid-template-rows: 100px 1fr auto;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .header {
   padding: 2rem 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: top;
 }
-.header > * {
-  margin: 0 1rem;
+
+.header h1 {
+  font-family: script;
+  margin-right: 2rem;
+  transition: font-size 0.5s ease-in-out;
+}
+
+.container.home .header h1 {
+  font-size: 6rem;
+}
+
+.headerLinks > * {
+  display: inline-block;
 }
 
 .main {
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.pageChanging {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .footer {
