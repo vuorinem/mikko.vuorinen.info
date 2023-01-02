@@ -65,7 +65,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
         <title>Mikko Vuorinen</title>
         <meta name="description" content="Portfolio and personal website of software developer Mikko Vuorinen" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
 
       <header className={styles.header}>
