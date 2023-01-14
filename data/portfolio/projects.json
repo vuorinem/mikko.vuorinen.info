@@ -2,192 +2,401 @@
     {
         "name": "naturalreading",
         "type": "personal",
-        "title": "Reader web application",
-        "text": "Application for stydying reading on electonic devices (2018)",
-        "tech": "TS/Aurelia, C#/.NET, Azure, Vercel"
+        "title": "Sirius Reader",
+        "text": "Web e-Reader for stydying reading on electonic devices (2018-2022)",
+        "tech": [
+            "TypeScript",
+            "Aurelia",
+            "C#",
+            ".NET",
+            "Azure",
+            "Vercel"
+        ]
     },
     {
         "name": "lahjalista",
         "type": "personal",
         "title": "lahjalista.net",
         "link": "https://lahjalista.net",
-        "text": "Online wishlist service (2005-2018)"
+        "text": "Online wishlist service (2005-2018)",
+        "tech": [
+            "PHP",
+            "MySQL",
+            "JavaScript",
+            "AJAX",
+            "HTML",
+            "CSS",
+            "XML"
+        ]
     },
     {
         "name": "donfilms",
         "type": "freelance",
         "title": "Don Films",
-        "text": "Film production company website (2014-2018)"
+        "text": "Film production company website (2014-2018)",
+        "tech": [
+            "PHP",
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ]
     },
     {
         "name": "itk",
         "type": "employed",
         "title": "ITK Conference",
-        "text": "Conference website, program and peer-review system (2012-2017)"
+        "text": "Conference website, program and peer-review system (2012-2017)",
+        "tech": [
+            "PHP",
+            "MySQL",
+            "JavaScript",
+            "AJAX",
+            "HTML",
+            "CSS"
+        ]
     },
     {
         "name": "conexting",
         "type": "freelance",
         "title": "Conexting",
-        "text": "Social/SMS conversation wall service (2013-2017)"
+        "text": "Social/SMS conversation wall service (2013-2017)",
+        "tech": [
+            "PHP",
+            "MySQL",
+            "JavaScript",
+            "AJAX",
+            "HTML",
+            "CSS",
+            "Twitter",
+            "SMS"
+        ]
     },
     {
         "name": "justkidding",
         "type": "freelance",
         "title": "justKIDding",
-        "text": "Family photography studio website (2015)"
+        "text": "Family photography studio website (2015)",
+        "tech": [
+            "PHP",
+            "HTML",
+            "CSS"
+        ]
     },
     {
         "name": "mindtrek2015",
         "type": "freelance",
         "title": "Mindtrek 2015 Conference",
-        "text": "Submission, review and registration system (2015)"
+        "text": "Submission, review and registration system (2015)",
+        "tech": [
+            "PHP",
+            "MySQL",
+            "JavaScript",
+            "AJAX",
+            "HTML",
+            "CSS"
+        ]
     },
     {
         "name": "kinoste",
         "type": "employed",
         "title": "Kinoste",
-        "text": "Online questionnaire and reporting for libraries (2014)"
+        "text": "Online questionnaire and reporting for libraries (2014)",
+        "tech": [
+            "PHP",
+            "pgSQL",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "jQuery"
+        ]
     },
     {
         "name": "opeka",
         "type": "employed",
         "title": "Opeka",
         "link": "https://opeka.fi",
-        "text": "Online questionnaire and reporting for schools (2012-2016)"
+        "text": "Online questionnaire and reporting for schools (2012-2016)",
+        "tech": [
+            "PHP",
+            "pgSQL",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "jQuery"
+        ]
     },
     {
         "name": "socialflow",
         "type": "employed",
         "title": "SocialFlow",
-        "text": "Customization of SocialStream app for SUR40 (2013-2014)"
+        "text": "Customization of SocialStream app for SUR40 (2013-2014)",
+        "tech": [
+            "C#",
+            "Multi-touch",
+            "UX Prototyping"
+        ]
     },
     {
         "name": "asadin",
         "type": "freelance",
         "title": "Merja Yeung photography",
-        "text": "Photographer portfolio (2012)"
+        "text": "Photographer portfolio (2012)",
+        "tech": [
+            "PHP",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
     },
     {
         "name": "tasan",
         "type": "freelance",
         "title": "Tasan Autotalo Oy",
-        "text": "Car dealer website (2011)"
+        "text": "Car dealer website (2011)",
+        "tech": [
+            "PHP",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "AJAX"
+        ]
     },
     {
         "name": "hannalinnakko",
         "type": "freelance",
         "title": "Hanna Linnakko",
-        "text": "Photographer portfolio (2011)"
+        "text": "Photographer portfolio (2011)",
+        "tech": [
+            "PHP",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
     },
     {
         "name": "leenawaggoner",
         "type": "freelance",
         "title": "Leena Waggoner",
-        "text": "Photographer portfolio (2011)"
+        "text": "Photographer portfolio (2011)",
+        "tech": [
+            "PHP",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
     },
     {
         "name": "wikiakayttamaan",
         "type": "employed",
         "title": "Wikiä käyttämään!",
         "link": "https://urn.fi/urn:isbn:978-951-44-8403-2",
-        "text": "Support for choosing and using a wiki tool (2011)"
+        "text": "Support for choosing and using a wiki tool (2011)",
+        "tech": [
+            "Research",
+            "Qualitative",
+            "Wiki",
+            "Writing"
+        ]
     },
     {
         "name": "itk2011",
         "type": "freelance",
         "title": "ITK 2011 Conference",
-        "text": "Online conference program and conversation tool (2011)"
+        "text": "Online conference program and conversation tool (2011)",
+        "tech": [
+            "PHP",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
     },
     {
         "name": "eurajoki",
         "type": "freelance",
         "title": "Eurajoki: Voi Hyvin",
-        "text": "Municipal excercise gamification experiment (2011)"
+        "text": "Municipal excercise gamification experiment (2011)",
+        "tech": [
+            "PHP",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "MySQL"
+        ]
     },
     {
         "name": "thesis",
         "type": "personal",
         "title": "MSc Thesis",
         "link": "https://urn.fi/URN:NBN:fi:tty-201007071249",
-        "text": "Instant Online Communities for Improving Perceived Learning (2010)"
+        "text": "Instant Online Communities for Improving Perceived Learning (2010)",
+        "tech": [
+            "Research",
+            "Writing",
+            "Qualitative"
+        ]
     },
     {
         "name": "mariamiklas",
         "type": "freelance",
         "title": "Maria Miklas",
-        "text": "Photographer portfolio (2010)"
+        "text": "Photographer portfolio (2010)",
+        "tech": [
+            "PHP",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
     },
     {
         "name": "peltola",
         "type": "freelance",
         "title": "Peltolan marjatila",
-        "text": "Organic farm website (2009)"
+        "text": "Organic farm website (2009)",
+        "tech": [
+            "PHP",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "AJAX",
+            "jQuery"
+        ]
     },
     {
         "name": "osakerekisteri",
         "type": "freelance",
         "title": "R.Ruth Oy share registry",
-        "text": "Online share registry for private company (2009)"
+        "text": "Online share registry for private company (2009)",
+        "tech": [
+            "PHP",
+            "HTML",
+            "CSS",
+            "MySQL"
+        ]
     },
     {
         "name": "kuvapankki",
         "type": "freelance",
         "title": "Kuvapankki",
-        "text": "Stock image database (2009)"
+        "text": "Stock image database (2009)",
+        "tech": [
+            "PHP",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "AJAX",
+            "MySQL"
+        ]
     },
     {
         "name": "taapero",
         "type": "freelance",
         "title": "Taapero",
-        "text": "Website for a book / children activity course (2008)"
+        "text": "Website for a book / children activity course (2008)",
+        "tech": [
+            "PHP",
+            "HTML",
+            "CSS"
+        ]
     },
     {
         "name": "rruth",
         "type": "freelance",
         "title": "R.Ruth Oy",
-        "text": "Company website (2006-2018)"
+        "text": "Company website (2006-2018)",
+        "tech": [
+            "PHP",
+            "HTML",
+            "CSS"
+        ]
     },
     {
         "name": "anime",
         "type": "personal",
         "title": "Animehärveli",
-        "text": "To keep track of the anime I have watched (2005)"
+        "text": "To keep track of the anime I have watched (2005)",
+        "tech": [
+            "PHP",
+            "HTML",
+            "CSS",
+            "MySQL"
+        ]
     },
     {
         "name": "samponmokit",
         "type": "freelance",
         "title": "Sampon Lomamökit",
-        "text": "Company website and cabin reservation system (2004-2014)"
+        "text": "Company website and cabin reservation system (2004-2014)",
+        "tech": [
+            "PHP",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "AJAX",
+            "MySQL"
+        ]
     },
     {
         "name": "kalenteri",
         "type": "freelance",
         "title": "Company calendar",
-        "text": "Online calendar for private company (2004-2020)"
+        "text": "Online calendar for private company (2004-2020)",
+        "tech": [
+            "PHP",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "AJAX",
+            "MySQL"
+        ]
     },
     {
         "name": "tokino",
         "type": "freelance",
         "title": "Tokino",
-        "text": "PHP-based web framework (2004-2008)"
+        "text": "PHP-based web framework (2004-2008)",
+        "tech": [
+            "PHP",
+            "HTML",
+            "XML",
+            "JavaScript",
+            "AJAX"
+        ]
     },
     {
         "name": "ylaruth",
         "type": "freelance",
         "title": "Ylä-Ruth",
-        "text": "Restaurant website (2003-2018)"
+        "text": "Restaurant website (2003-2018)",
+        "tech": [
+            "PHP",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
     },
     {
         "name": "tietovisio",
         "type": "freelance",
         "title": "Tietovisio Oy",
-        "text": "Company Website (2000)"
+        "text": "Company Website (2000)",
+        "tech": [
+            "PHP",
+            "HTML",
+            "CSS"
+        ]
     },
     {
         "name": "jklautotarvike",
         "type": "freelance",
         "title": "Jyväskylän Autotarvike Oy",
-        "text": "Car dealer website (1999-2013)"
+        "text": "Car dealer website (1999-2013)",
+        "tech": [
+            "PHP",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "AJAX",
+            "MySQL"
+        ]
     }
 ]

@@ -4,5 +4,5 @@ export type Project = {
     title: string
     link?: string
     text?: string
-    tech?: string
+    tech?: string[]
 };
