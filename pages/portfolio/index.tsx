@@ -11,6 +11,14 @@ type PortfolioProps = {
 }
 
 const Portfolio: NextPage<PortfolioProps> = ({ projects }) => {
+    const GetTechTags = (tech: string[]) => tech
+        .sort((a, b) => a.localeCompare(b, 'en'))
+        .map(techName => {
+            return (
+                <span key={techName} className={styles.techTag}>{techName}</span>
+            );
+        });
+
     const GetProjectsList = (type: string) => projects
         .filter(project => project.type === type)
         .map(project => {
@@ -20,6 +28,7 @@ const Portfolio: NextPage<PortfolioProps> = ({ projects }) => {
                         <h2>{project.title}</h2>
                         {project.text ? <p>{project.text}</p> : ""}
                         {project.link ? <p><ExternalLink href={project.link}>{project.link.replace(/https?:\\\\/, "")}</ExternalLink></p> : ""}
+                        {project.tech ? <p>{GetTechTags(project.tech)}</p> : ""}
                     </div>
                     <div className={styles.screenshot}>
                         <Image
