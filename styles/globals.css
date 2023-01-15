@@ -53,6 +53,10 @@ li a:hover {
   box-sizing: border-box;
 }
 
+h1 {
+  text-align: center;
+}
+
 h2 {
   margin-block-start: 2em;
   margin-inline-end: 0.5em;
