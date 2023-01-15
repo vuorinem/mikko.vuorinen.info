@@ -51,7 +51,7 @@
         {
             "name": "decentralisedgw",
             "image": "phone-with-qrcode.png",
-            "imageDescription": "Illustration with a QR code on a mobile phone screen",
+            "imageDescription": "Photo of a QR code on a mobile phone screen",
             "title": "OIDC Gateway for SSI Verifiable Credentials",
             "text": "Verifiable Credentials (VC) and Self-Sovereign Identity (SSI) solution with OIDC Gateway",
             "tech": [
@@ -283,7 +283,7 @@
             "name": "mindtrek2015",
             "image": "mindtrek2015.png",
             "imageDescription": "Screenshot from Mindtrek 2015 Conference",
-            "title": "Mindtrek 2015 Conference",
+            "title": "Academic Mindtrek 2015 Conference",
             "text": "Submission, review and registration system (2015)",
             "tech": [
                 "PHP",
@@ -546,7 +546,7 @@
             "imageDescription": "Screenshot from Panel Discussion: Getting started with Self-Sovereign Identity",
             "title": "Panel Discussion: Getting started with Self-Sovereign Identity",
             "link": "https://youtu.be/S0YvmvdhHuk",
-            "text": "Panel discussion about self-sovereign identity, it's usecases and challenges (2021)",
+            "text": "A panel discussion about SSI (2021)",
             "tech": [
                 "Webinar",
                 "SSI",
@@ -556,16 +556,17 @@
         },
         {
             "name": "byoid",
-            "image": "byoid.png",
-            "imageDescription": "Screenshot from Bring Your Own Identity – You Own It!",
+            "image": "phone-and-tablet.png",
+            "imageDescription": "Photo of a phone held in front of a QR code on tablet",
             "title": "Bring Your Own Identity – You Own It!",
             "link": "https://condatis.com/news/blog/ssi-for-developers/",
-            "text": "A blog article about BYOID trust model and decentralized identity",
+            "text": "A blog article about SSI (2020)",
             "tech": [
-                "Webinar",
+                "Article",
                 "SSI",
                 "DID",
-                "VC"
+                "VC",
+                "BYOID"
             ]
         },
         {
@@ -574,7 +575,7 @@
             "imageDescription": "Screenshot from Using Hyperledger Aries to Issue and Verify Credentials",
             "title": "Using Hyperledger Aries to Issue and Verify Credentials",
             "link": "https://youtu.be/SLcxd_dEG-c",
-            "text": "Webinar series on Self-Sovereign Identity: Hyperledger Aries demo with Verity (2020)",
+            "text": "Webinar on SSI (2020)",
             "tech": [
                 "Webinar",
                 "SSI",
@@ -588,9 +589,9 @@
             "imageDescription": "Screenshot from Self-Sovereign Identity for Developers",
             "title": "Self-Sovereign Identity for Developers",
             "link": "https://condatis.com/news/blog/ssi-for-developers/",
-            "text": "A blog article introducing SSI for developers (2020)",
+            "text": "A blog article on SSI (2020)",
             "tech": [
-                "Webinar",
+                "Article",
                 "SSI",
                 "DID",
                 "VC"
@@ -602,7 +603,7 @@
             "imageDescription": "Screenshot from Decentralized identity protocols and standards",
             "title": "Decentralized identity protocols and standards",
             "link": "https://youtu.be/S0YvmvdhHuk",
-            "text": "Webinar series on Self-Sovereign Identity: Getting Started (2020)",
+            "text": "Webinar on SSI (2020)",
             "tech": [
                 "Webinar",
                 "SSI",
@@ -616,7 +617,7 @@
             "imageDescription": "Screenshot from Azure AD B2C and refresh tokens for Single Page Applications",
             "title": "Azure AD B2C and refresh tokens for Single Page Applications",
             "link": "https://youtu.be/j-aqCcQgpUw",
-            "text": "A blog article about refresh token usage in SPAs with Azure AD B2C (2020)",
+            "text": "A blog article on OIDC tokens (2020)",
             "tech": [
                 "Article",
                 "OIDC",
@@ -630,7 +631,7 @@
             "imageDescription": "Screenshot from Getting started with self-sovereign identity (SSI)",
             "title": "Getting started with self-sovereign identity (SSI)",
             "link": "https://youtu.be/j-aqCcQgpUw",
-            "text": "Webinar series on Self-Sovereign Identity: Getting Started (2020)",
+            "text": "Webinar on SSI (2020)",
             "tech": [
                 "Webinar",
                 "SSI",
@@ -642,9 +643,9 @@
             "name": "adnug-talk",
             "image": "adnug-talk.png",
             "imageDescription": "Screenshot from .NET User Group talk: Aurelia",
-            "title": ".NET User Group talk: Aurelia",
+            "title": "Aberdeen .NET User Group: Aurelia",
             "link": "https://github.com/vuorinem/ADNUGTalk",
-            "text": "A talk about Aurelia framework at Aberdeen .NET Developers User Group (2019)",
+            "text": "A talk at local developer user group (2019)",
             "tech": [
                 "Talk",
                 "Aurelia",
@@ -657,7 +658,7 @@
             "imageDescription": "Screenshot from Wikiä käyttämään!",
             "title": "Wikiä käyttämään!",
             "link": "https://urn.fi/urn:isbn:978-951-44-8403-2",
-            "text": "Support for choosing and using a wiki tool (2011)",
+            "text": "A book to support choosing and using a wiki tool (2011)",
             "tech": [
                 "Research",
                 "Qualitative",
@@ -669,9 +670,9 @@
             "name": "thesis",
             "image": "thesis.png",
             "imageDescription": "Screenshot from MSc Thesis",
-            "title": "MSc Thesis",
+            "title": "Instant Online Communities for Improving Perceived Learning",
             "link": "https://urn.fi/URN:NBN:fi:tty-201007071249",
-            "text": "Instant Online Communities for Improving Perceived Learning (2010)",
+            "text": "MSc Thesis (2010)",
             "tech": [
                 "Research",
                 "Writing",
