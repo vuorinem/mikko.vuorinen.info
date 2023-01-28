@@ -11,6 +11,14 @@ type PortfolioProps = {
 }
 
 const Portfolio: NextPage<PortfolioProps> = ({ projectCollection }) => {
+    const GetDuration = (start: string, end?: string) => {
+        if (end === undefined || end === start) {
+            return start;
+        } else {
+            return `${start} - ${end}`;
+        }
+    }
+
     const GetTechTags = (tech: string[]) => tech
         .sort((a, b) => a.localeCompare(b, 'en'))
         .map(techName => {
@@ -33,6 +41,7 @@ const Portfolio: NextPage<PortfolioProps> = ({ projectCollection }) => {
                         <h2>{project.title}</h2>
                         {project.text ? <p className={styles.projectText}>{project.text}</p> : ""}
                         {project.link ? <p className={styles.projectLink}><ExternalLink href={project.link}>{project.link.replace(/https?:\\\\/, "")}</ExternalLink></p> : ""}
+                        {project.start ? <p className={styles.projectDuration}>{GetDuration(project.start, project.end)}</p> : ""}
                         {project.tech ? <p className={styles.projectTech}>{GetTechTags(project.tech)}</p> : ""}
                     </div>
                 </div>

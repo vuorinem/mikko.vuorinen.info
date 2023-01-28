@@ -35,6 +35,7 @@
 .info {
     display: grid;
     grid-auto-flow: row;
+    margin-bottom: 10px;
 }
 
 .info h2 {
@@ -45,18 +46,24 @@
 
 .info p {
     padding: 0 10px;
+    margin: 5px 0;
 }
 
-.projectLink {
+.info .projectLink {
     word-break: break-all;
 }
 
-.projectTech {
-    align-self: end;
-    height: 3rem;
+.info .projectDuration {
+    font-size: 0.9rem;
+    margin-top: 0;
 }
 
-.techTag {
+.info .projectTech {
+    align-self: end;
+    height: 3.5rem;
+}
+
+.info .techTag {
     display: inline-block;
     font-size: 0.8rem;
     background-color: rgb(var(--text-color-rgb), 0.2);
