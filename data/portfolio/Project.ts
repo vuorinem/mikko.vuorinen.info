@@ -5,6 +5,8 @@ export type Project = {
     imageDescription: string
     link?: string
     text?: string
+    start?: string,
+    end?: string,
     tech?: string[]
 };
 
