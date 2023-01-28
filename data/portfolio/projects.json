@@ -1,6 +1,19 @@
 {
     "ongoing": [
         {
+            "name": "mikkovuorineninfo",
+            "image": "mikkovuorineninfo.png",
+            "imageDescription": "Screenshot from mikko.vuorinen.info website",
+            "title": "mikko.vuorinen.info",
+            "text": "Personal website and portfolio (2022)",
+            "tech": [
+                "TypeScript",
+                "React",
+                "Next.js",
+                "Vercel"
+            ]
+        },
+        {
             "name": "ereaderstudy",
             "image": "ereaderstudy.png",
             "imageDescription": "Screenshot from e-Reader Study",
