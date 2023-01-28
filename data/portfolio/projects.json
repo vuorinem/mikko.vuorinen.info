@@ -76,6 +76,8 @@
             "imageDescription": "Photo of a QR code on a mobile phone screen",
             "title": "OIDC Gateway for SSI Verifiable Credentials",
             "text": "Verifiable Credentials (VC) and Self-Sovereign Identity (SSI) solution with OIDC Gateway",
+            "start": "2020",
+            "end": "2022",
             "tech": [
                 "C#",
                 ".NET",
@@ -91,10 +93,12 @@
         },
         {
             "name": "singlesignon",
-            "image": "singlesignon.png",
+            "image": "placeholder.png",
             "imageDescription": "Screenshot from Single Sign-On solution",
             "title": "Single Sign-On solution",
             "text": "B2C SSO solution for a suite of online services",
+            "start": "2019",
+            "end": "2021",
             "tech": [
                 "C#",
                 ".NET",
@@ -106,26 +110,12 @@
             ]
         },
         {
-            "name": "trainingmanagement",
-            "image": "trainingmanagement.png",
-            "imageDescription": "Screenshot from Training course registration",
-            "title": "Training course registration",
-            "text": "Web application for training course registration and management",
-            "tech": [
-                "C#",
-                ".NET",
-                "ASP.NET MVC",
-                "TypeScript",
-                "Aurelia",
-                "REST"
-            ]
-        },
-        {
             "name": "3dvisualization",
-            "image": "3dvisualization.png",
+            "image": "placeholder.png",
             "imageDescription": "Screenshot from 3D Visualization application",
             "title": "3D Visualization application",
             "text": "Desktop and web application for visualizing and navigating 3D images",
+            "start": "2018",
             "tech": [
                 "C#",
                 "WPF",
@@ -138,11 +128,29 @@
             ]
         },
         {
+            "name": "trainingmanagement",
+            "image": "placeholder.png",
+            "imageDescription": "Screenshot from Training course registration",
+            "title": "Training course registration",
+            "text": "Web application for training course registration and management",
+            "start": "2017",
+            "tech": [
+                "C#",
+                ".NET",
+                "ASP.NET MVC",
+                "TypeScript",
+                "Aurelia",
+                "REST"
+            ]
+        },
+        {
             "name": "golfsystem",
-            "image": "golfsystem.png",
+            "image": "placeholder.png",
             "imageDescription": "Screenshot from Golf reservation system",
             "title": "Golf reservation system",
             "text": "Web reservation system for a client with several golf courses",
+            "start": "2016",
+            "end": "2018",
             "tech": [
                 "C#",
                 ".NET",
@@ -156,10 +164,12 @@
         },
         {
             "name": "shiproute",
-            "image": "shiproute.png",
+            "image": "placeholder.png",
             "imageDescription": "Screenshot from Ship route visualization",
             "title": "Ship route visualization",
             "text": "Web application for ship route visualization, planning and playback",
+            "start": "2014",
+            "end": "2015",
             "tech": [
                 "C#",
                 ".NET",
@@ -252,7 +262,7 @@
         },
         {
             "name": "mindtrek2010",
-            "image": "mindtrek2010.png",
+            "image": "placeholder.png",
             "imageDescription": "Screenshot from Mindtrek 2010 Twitter Wall",
             "title": "Mindtrek 2010 Twitter Wall",
             "text": "Twitter wall implementation for a conference",
@@ -603,9 +613,9 @@
         {
             "name": "ssi-panel",
             "image": "ssi-panel.png",
-            "imageDescription": "Screenshot from Panel Discussion: Getting started with Self-Sovereign Identity",
+            "imageDescription": "Screenshot from Panel Discussion: Getting started with Self-Sovereign Identity recording",
             "title": "Panel Discussion: Getting started with Self-Sovereign Identity",
-            "link": "https://youtu.be/S0YvmvdhHuk",
+            "link": "https://youtu.be/6rSRExqopOo",
             "text": "A panel discussion about SSI",
             "start": "2021",
             "tech": [
@@ -620,7 +630,7 @@
             "image": "phone-and-tablet.png",
             "imageDescription": "Photo of a phone held in front of a QR code on tablet",
             "title": "Bring Your Own Identity – You Own It!",
-            "link": "https://condatis.com/news/blog/ssi-for-developers/",
+            "link": "https://condatis.com/news/blog/bring-your-own-identity-you-own-it/",
             "text": "A blog article about SSI",
             "start": "2020",
             "tech": [
@@ -634,7 +644,7 @@
         {
             "name": "ssi-aries",
             "image": "ssi-aries.png",
-            "imageDescription": "Screenshot from Using Hyperledger Aries to Issue and Verify Credentials",
+            "imageDescription": "Screenshot from Using Hyperledger Aries to Issue and Verify Credentials recording",
             "title": "Using Hyperledger Aries to Issue and Verify Credentials",
             "link": "https://youtu.be/SLcxd_dEG-c",
             "text": "Webinar on SSI",
@@ -649,7 +659,7 @@
         {
             "name": "ssi-fordevs",
             "image": "ssi-fordevs.png",
-            "imageDescription": "Screenshot from Self-Sovereign Identity for Developers",
+            "imageDescription": "A person typing on a laptop",
             "title": "Self-Sovereign Identity for Developers",
             "link": "https://condatis.com/news/blog/ssi-for-developers/",
             "text": "A blog article on SSI",
@@ -664,7 +674,7 @@
         {
             "name": "ssi-protocols",
             "image": "ssi-protocols.png",
-            "imageDescription": "Screenshot from Decentralized identity protocols and standards",
+            "imageDescription": "Screenshot from Decentralized identity protocols and standards recording",
             "title": "Decentralized identity protocols and standards",
             "link": "https://youtu.be/S0YvmvdhHuk",
             "text": "Webinar on SSI",
@@ -681,7 +691,7 @@
             "image": "b2c-tokens.png",
             "imageDescription": "Screenshot from Azure AD B2C and refresh tokens for Single Page Applications",
             "title": "Azure AD B2C and refresh tokens for Single Page Applications",
-            "link": "https://youtu.be/j-aqCcQgpUw",
+            "link": "https://condatis.com/news/blog/microsoft-azure-ad-b2c-and-refresh-tokens-for-single-page-applications/",
             "text": "A blog article on OIDC tokens",
             "start": "2020",
             "tech": [
@@ -694,7 +704,7 @@
         {
             "name": "ssi-getting-started",
             "image": "ssi-getting-started.png",
-            "imageDescription": "Screenshot from Getting started with self-sovereign identity (SSI)",
+            "imageDescription": "Screenshot from Getting started with self-sovereign identity (SSI) recording",
             "title": "Getting started with self-sovereign identity (SSI)",
             "link": "https://youtu.be/j-aqCcQgpUw",
             "text": "Webinar on SSI",
@@ -709,7 +719,7 @@
         {
             "name": "adnug-talk",
             "image": "adnug-talk.png",
-            "imageDescription": "Screenshot from .NET User Group talk: Aurelia",
+            "imageDescription": "Screenshot from .NET User Group talk: Aurelia slideshow",
             "title": "Aberdeen .NET User Group: Aurelia",
             "link": "https://github.com/vuorinem/ADNUGTalk",
             "text": "A talk at local developer user group",

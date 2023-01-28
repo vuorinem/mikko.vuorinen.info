@@ -57,6 +57,14 @@ const Portfolio: NextPage<PortfolioProps> = ({ projectCollection }) => {
                 {GetProjectsList(projectCollection.ongoing)}
             </div>
 
+            <h2>Publications and presentations</h2>
+            <p>
+                Various publications and presentations done as part of employment, studies or free time.
+            </p>
+            <div className={styles.projects}>
+                {GetProjectsList(projectCollection.publication)}
+            </div>
+
             <h2>Past projects in full-time employment</h2>
             <div className={styles.projects}>
                 {GetProjectsList(projectCollection.employed)}
@@ -70,18 +78,16 @@ const Portfolio: NextPage<PortfolioProps> = ({ projectCollection }) => {
                 {GetProjectsList(projectCollection.freelance)}
             </div>
 
-            <h2>Publications and presentations</h2>
-            <p>
-                Various publications and presentations done as part of employment, studies or free time.
-            </p>
-            <div className={styles.projects}>
-                {GetProjectsList(projectCollection.publication)}
-            </div>
-
             <p className={styles.attributions}>
                 Attributions:
-                Photo by Pixabay: https://www.pexels.com/photo/qr-code-on-screengrab-278430/ |
-                Photo by Proxyclick Visitor Management System: https://www.pexels.com/photo/cellphone-and-scanner-2451622/ |
+                { " " }
+                <ExternalLink href="https://www.pexels.com/photo/qr-code-on-screengrab-278430/">Photo by Pixabay</ExternalLink>
+                { " | " }
+                <ExternalLink href="https://www.pexels.com/photo/cellphone-and-scanner-2451622/">Photo by Proxyclick Visitor Management System</ExternalLink>
+                { " | " }
+                <ExternalLink href="https://www.freepik.com/free-photo/hand-using-laptop-computer-with-virtual-screen-document-online-approve-paperless-quality-assurance-erp-management-concept_24755711.htm#query=data%20security&position=3&from_view=search&track=sph">Image by DilokaStudio on Freepik</ExternalLink>
+                { " | " }
+                <ExternalLink href="https://www.freepik.com/free-vector/hand-coding-concept-illustration_21864184.htm#page=3&query=software%20engineer&position=8&from_view=search&track=sph">Image by storyset on Freepik</ExternalLink>
             </p>
         </>
     );
