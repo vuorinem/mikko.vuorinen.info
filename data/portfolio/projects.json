@@ -94,7 +94,7 @@
         {
             "name": "singlesignon",
             "image": "placeholder.png",
-            "imageDescription": "Screenshot from Single Sign-On solution",
+            "imageDescription": "Placeholder image",
             "title": "Single Sign-On solution",
             "text": "B2C SSO solution for a suite of online services",
             "start": "2019",
@@ -112,7 +112,7 @@
         {
             "name": "3dvisualization",
             "image": "placeholder.png",
-            "imageDescription": "Screenshot from 3D Visualization application",
+            "imageDescription": "Placeholder image",
             "title": "3D Visualization application",
             "text": "Desktop and web application for visualizing and navigating 3D images",
             "start": "2018",
@@ -130,7 +130,7 @@
         {
             "name": "trainingmanagement",
             "image": "placeholder.png",
-            "imageDescription": "Screenshot from Training course registration",
+            "imageDescription": "Placeholder image",
             "title": "Training course registration",
             "text": "Web application for training course registration and management",
             "start": "2017",
@@ -146,7 +146,7 @@
         {
             "name": "golfsystem",
             "image": "placeholder.png",
-            "imageDescription": "Screenshot from Golf reservation system",
+            "imageDescription": "Placeholder image",
             "title": "Golf reservation system",
             "text": "Web reservation system for a client with several golf courses",
             "start": "2016",
@@ -165,7 +165,7 @@
         {
             "name": "shiproute",
             "image": "placeholder.png",
-            "imageDescription": "Screenshot from Ship route visualization",
+            "imageDescription": "Placeholder image",
             "title": "Ship route visualization",
             "text": "Web application for ship route visualization, planning and playback",
             "start": "2014",
@@ -249,7 +249,7 @@
         {
             "name": "itk2011",
             "image": "itk2011.png",
-            "imageDescription": "Screenshot from ITK 2011 Conference",
+            "imageDescription": "Screenshot from ITK 2011 Conference website",
             "title": "ITK 2011 Conference",
             "text": "Online conference program and conversation tool",
             "start": "2011",
@@ -263,7 +263,7 @@
         {
             "name": "mindtrek2010",
             "image": "placeholder.png",
-            "imageDescription": "Screenshot from Mindtrek 2010 Twitter Wall",
+            "imageDescription": "Placeholder image",
             "title": "Mindtrek 2010 Twitter Wall",
             "text": "Twitter wall implementation for a conference",
             "start": "2010",
@@ -280,7 +280,7 @@
         {
             "name": "donfilms",
             "image": "donfilms.png",
-            "imageDescription": "Screenshot from Don Films",
+            "imageDescription": "Screenshot from Don Films website",
             "title": "Don Films",
             "text": "Film production company website",
             "start": "2014",
@@ -295,7 +295,7 @@
         {
             "name": "conexting",
             "image": "conexting.png",
-            "imageDescription": "Screenshot from Conexting",
+            "imageDescription": "Screenshot from Conexting website",
             "title": "Conexting",
             "text": "Social/SMS conversation wall service",
             "start": "2013",
@@ -314,7 +314,7 @@
         {
             "name": "justkidding",
             "image": "justkidding.png",
-            "imageDescription": "Screenshot from justKIDding",
+            "imageDescription": "Screenshot from justKIDding website",
             "title": "justKIDding",
             "text": "Family photography studio website",
             "start": "2015",
@@ -327,7 +327,7 @@
         {
             "name": "mindtrek2015",
             "image": "mindtrek2015.png",
-            "imageDescription": "Screenshot from Mindtrek 2015 Conference",
+            "imageDescription": "Screenshot from Mindtrek 2015 Conference website",
             "title": "Academic Mindtrek 2015 Conference",
             "text": "Web submission, review and registration system",
             "start": "2015",
@@ -343,7 +343,7 @@
         {
             "name": "asadin",
             "image": "asadin.png",
-            "imageDescription": "Screenshot from Merja Yeung photography",
+            "imageDescription": "Screenshot from Merja Yeung photography website",
             "title": "Merja Yeung photography",
             "text": "Photographer portfolio",
             "start": "2012",
@@ -357,7 +357,7 @@
         {
             "name": "tasan",
             "image": "tasan.png",
-            "imageDescription": "Screenshot from Tasan Autotalo Oy",
+            "imageDescription": "Screenshot from Tasan Autotalo Oy website",
             "title": "Tasan Autotalo Oy",
             "text": "Car dealer website",
             "start": "2011",
@@ -372,7 +372,7 @@
         {
             "name": "hannalinnakko",
             "image": "hannalinnakko.png",
-            "imageDescription": "Screenshot from Hanna Linnakko",
+            "imageDescription": "Screenshot from Hanna Linnakko website",
             "title": "Hanna Linnakko",
             "text": "Photographer portfolio",
             "start": "2011",
@@ -386,7 +386,7 @@
         {
             "name": "leenawaggoner",
             "image": "leenawaggoner.png",
-            "imageDescription": "Screenshot from Leena Waggoner",
+            "imageDescription": "Screenshot from Leena Waggoner website",
             "title": "Leena Waggoner",
             "text": "Photographer portfolio",
             "start": "2011",
@@ -400,7 +400,7 @@
         {
             "name": "eurajoki",
             "image": "eurajoki.png",
-            "imageDescription": "Screenshot from Eurajoki: Voi Hyvin",
+            "imageDescription": "Screenshot from Eurajoki: Voi Hyvin website",
             "title": "Eurajoki: Voi Hyvin",
             "text": "Website for municipal excercise gamification experiment",
             "start": "2011",
@@ -415,7 +415,7 @@
         {
             "name": "mariamiklas",
             "image": "mariamiklas.png",
-            "imageDescription": "Screenshot from Maria Miklas",
+            "imageDescription": "Screenshot from Maria Miklas website",
             "title": "Maria Miklas",
             "text": "Photographer portfolio",
             "start": "2010",
@@ -429,7 +429,7 @@
         {
             "name": "peltola",
             "image": "peltola.png",
-            "imageDescription": "Screenshot from Peltolan marjatila",
+            "imageDescription": "Screenshot from Peltolan marjatila website",
             "title": "Peltolan marjatila",
             "text": "Organic farm website",
             "start": "2009",
@@ -475,7 +475,7 @@
         {
             "name": "taapero",
             "image": "taapero.png",
-            "imageDescription": "Screenshot from Taapero",
+            "imageDescription": "Screenshot from Taapero website",
             "title": "Taapero",
             "text": "Website for a children's activity course",
             "start": "2008",
@@ -488,7 +488,7 @@
         {
             "name": "rruth",
             "image": "rruth.png",
-            "imageDescription": "Screenshot from R.Ruth Oy",
+            "imageDescription": "Screenshot from R.Ruth Oy website",
             "title": "R.Ruth Oy",
             "text": "Company website",
             "start": "2006",
@@ -516,7 +516,7 @@
         {
             "name": "samponmokit",
             "image": "samponmokit.png",
-            "imageDescription": "Screenshot from Sampon Lomamökit",
+            "imageDescription": "Screenshot from Sampon Lomamökit website",
             "title": "Sampon Lomamökit",
             "text": "Company website and cabin reservation system",
             "start": "2004",
@@ -550,7 +550,7 @@
         {
             "name": "tokino",
             "image": "tokino.png",
-            "imageDescription": "Screenshot from Tokino",
+            "imageDescription": "Screenshot from Tokino source code",
             "title": "Tokino",
             "text": "PHP-based web framework",
             "start": "2004",
@@ -566,7 +566,7 @@
         {
             "name": "ylaruth",
             "image": "ylaruth.png",
-            "imageDescription": "Screenshot from Ylä-Ruth",
+            "imageDescription": "Screenshot from Ylä-Ruth website",
             "title": "Ylä-Ruth",
             "text": "Restaurant website",
             "start": "2003",
@@ -581,7 +581,7 @@
         {
             "name": "tietovisio",
             "image": "tietovisio.png",
-            "imageDescription": "Screenshot from Tietovisio Oy",
+            "imageDescription": "Screenshot from Tietovisio Oy website",
             "title": "Tietovisio Oy",
             "text": "Company Website",
             "start": "2000",
@@ -594,7 +594,7 @@
         {
             "name": "jklautotarvike",
             "image": "jklautotarvike.png",
-            "imageDescription": "Screenshot from Jyväskylän Autotarvike Oy",
+            "imageDescription": "Screenshot from Jyväskylän Autotarvike Oy website",
             "title": "Jyväskylän Autotarvike Oy",
             "text": "Car dealer website",
             "start": "1999",
