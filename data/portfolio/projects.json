@@ -71,6 +71,25 @@
     ],
     "employed": [
         {
+            "name": "migration",
+            "image": "placeholder.png",
+            "imageDescription": "Placeholder image",
+            "title": "System migration",
+            "text": "Migration project involving Salesforce and various other products and internal systems",
+            "start": "2022",
+            "end": "2023",
+            "tech": [
+                "C#",
+                ".NET",
+                "AWS Lambda",
+                "AWS CDK",
+                "Salesforce",
+                "Okta",
+                "Auth0",
+                "Jenkins"
+            ]
+        },
+        {
             "name": "decentralisedgw",
             "image": "phone-with-qrcode.png",
             "imageDescription": "Photo of a QR code on a mobile phone screen",
