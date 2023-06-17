@@ -53,6 +53,9 @@ const Portfolio: NextPage<PortfolioProps> = ({ projectCollection }) => {
             <h1>Projects</h1>
 
             <h2>Ongoing personal projects</h2>
+            <p>
+                Currently active (some more than otheres) projects outside of my day job.
+            </p>
             <div className={styles.projects}>
                 {GetProjectsList(projectCollection.ongoing)}
             </div>
@@ -66,13 +69,16 @@ const Portfolio: NextPage<PortfolioProps> = ({ projectCollection }) => {
             </div>
 
             <h2>Past projects in full-time employment</h2>
+            <p>
+                A selection of projects and solutions I have worked on as part of my employment.
+            </p>
             <div className={styles.projects}>
                 {GetProjectsList(projectCollection.employed)}
             </div>
 
             <h2>Past freelance projects</h2>
             <p>
-                These are some of the project I have worked on as a freelance web developer
+                These are some of the project I have worked on as a freelance web developer.
             </p>
             <div className={styles.projects}>
                 {GetProjectsList(projectCollection.freelance)}
