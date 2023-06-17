@@ -78,7 +78,7 @@ const Portfolio: NextPage<PortfolioProps> = ({ projectCollection }) => {
 
             <h2>Past freelance projects</h2>
             <p>
-                These are some of the project I have worked on as a freelance web developer.
+                These are some of the projects I have worked on as a freelance web developer.
             </p>
             <div className={styles.projects}>
                 {GetProjectsList(projectCollection.freelance)}
