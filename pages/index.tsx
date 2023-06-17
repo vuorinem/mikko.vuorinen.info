@@ -21,6 +21,7 @@ const Home: NextPage = () => {
             <ul className={styles.links}>
                 <li>▸ See <Link href="/portfolio">my portfolio</Link> to get an idea what kind of projects I have done</li>
                 <li>▸ For my work experience and education, head to <ExternalLink href="https://www.linkedin.com/in/mikkovuorinen/">my LinkedIn page</ExternalLink></li>
+                <li>▸ Read some of my tech blog posts at <ExternalLink href="https://medium.com/@mikko.vuorinen">Medium</ExternalLink></li>
             </ul>
 
             <p className={styles.description}>
