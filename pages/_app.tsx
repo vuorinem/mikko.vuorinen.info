@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import SocialLinks from '../components/social-links'
 import { Waiting_for_the_Sunrise } from '@next/font/google'
+import { Analytics } from '@vercel/analytics/react';
 
 import '../styles/globals.css'
 import styles from './app.module.css'
@@ -87,6 +88,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
       <footer className={styles.footer}>
         <SocialLinks />
       </footer>
+      <Analytics />
     </div>
   )
 }
