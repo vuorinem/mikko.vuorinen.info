@@ -1,16 +1,12 @@
-import { GetStaticProps, NextPage } from "next"
 import Image from "next/image"
-import { Project, ProjectCollection } from "../../data/portfolio/Project"
-import projectCollection from "../../data/portfolio/projects.json"
-import ExternalLink from "../../components/external-link"
 
-import styles from './index.module.css'
+import { Project } from "@/data/portfolio/Project"
+import projectCollection from "@/data/portfolio/projects.json"
+import ExternalLink from "@/components/external-link"
 
-type PortfolioProps = {
-    projectCollection: ProjectCollection
-}
+import styles from './page.module.css'
 
-const Portfolio: NextPage<PortfolioProps> = ({ projectCollection }) => {
+export default function Portfolio() {
     const GetDuration = (start: string, end?: string) => {
         if (end === undefined || end === start) {
             return start;
@@ -86,25 +82,15 @@ const Portfolio: NextPage<PortfolioProps> = ({ projectCollection }) => {
 
             <p className={styles.attributions}>
                 Attributions:
-                { " " }
+                {" "}
                 <ExternalLink href="https://www.pexels.com/photo/qr-code-on-screengrab-278430/">Photo by Pixabay</ExternalLink>
-                { " | " }
+                {" | "}
                 <ExternalLink href="https://www.pexels.com/photo/cellphone-and-scanner-2451622/">Photo by Proxyclick Visitor Management System</ExternalLink>
-                { " | " }
+                {" | "}
                 <ExternalLink href="https://www.freepik.com/free-photo/hand-using-laptop-computer-with-virtual-screen-document-online-approve-paperless-quality-assurance-erp-management-concept_24755711.htm#query=data%20security&position=3&from_view=search&track=sph">Image by DilokaStudio on Freepik</ExternalLink>
-                { " | " }
+                {" | "}
                 <ExternalLink href="https://www.freepik.com/free-vector/hand-coding-concept-illustration_21864184.htm#page=3&query=software%20engineer&position=8&from_view=search&track=sph">Image by storyset on Freepik</ExternalLink>
             </p>
         </>
     );
 }
-
-export const getStaticProps: GetStaticProps<PortfolioProps> = () => {
-    return {
-        props: {
-            projectCollection
-        }
-    }
-}
-
-export default Portfolio

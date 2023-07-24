@@ -34,14 +34,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  opacity: 1;
-  transition: opacity 0.35s linear;
 }
 
-.pageChanging {
-  opacity: 0;
-  transition: none;
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.main > * {
+  animation: appear 0.35s linear;
 }
 
 .footer {
