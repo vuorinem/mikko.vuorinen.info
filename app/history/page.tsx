@@ -77,7 +77,7 @@ export default function History() {
                     During the time in Japan I also found <ExternalLink href="https://en.wikipedia.org/wiki/Kendo">kendo</ExternalLink>, which put me in the path of growing myself in a very different way &mdash; in a way that I have found invaluable, and after 16 years of practicing, inseparable part of myself. Explaining how kendo has affected me would be an essey of its own, but some of the most related things include building confidence, coaching others and respecting every encounter.
                 </p>
                 <p>
-                    The end of my university 
+                    The end of my university time consisted mostly of bigger group projects and the MSc Thesis. The group work gave me a glimpse into working on an actual project with a set goal and a team to achieve that goal, whereas the thesis required academic approach with the associated background research and rigorous writing process. 
                 </p>
             </section>
 
