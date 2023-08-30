@@ -23,6 +23,7 @@ export default function Header() {
                 </Link>
             </h1>
             <div className={styles.headerLinks}>
+                <Link href="/history">History</Link>
                 <Link href="/portfolio">Portfolio</Link>
             </div>
         </>

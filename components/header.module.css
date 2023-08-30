@@ -11,6 +11,7 @@
 
 .headerLinks>* {
   display: inline-block;
+  margin-left: 1rem;
 }
 
 @media (min-width: 450px) {
