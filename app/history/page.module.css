@@ -1,0 +1,47 @@
+.intro p {
+    margin: 0;
+    font-size: 1.4rem;
+    color: var(--muted-text-color);
+}
+
+.borderedImage,
+.screenshot {
+    border: 0.8rem solid var(--accent-border-color);
+    border-radius: 5px;
+}
+
+.attributions {
+    font-size: 0.8em;
+}
+
+.screenshot {
+    background-color: var(--accent-border-color);
+    margin-bottom: 0.5rem;
+}
+
+.screenshot p {
+    margin: 0;
+    padding-top: 3px;
+}
+
+@media (min-width: 450px) {
+    .intro {
+        margin: auto;
+        max-width: 800px;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        column-gap: 1.5rem;
+        align-items: center;
+    }
+
+    .screenshot {
+        float: right;
+        margin-left: 1.5rem;
+        display: grid;
+        justify-items: center;
+    }
+
+    .screenshot p {
+        font-size: 0.8rem;
+    }
+}
