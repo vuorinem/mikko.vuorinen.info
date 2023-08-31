@@ -24,6 +24,14 @@
     padding-top: 3px;
 }
 
+.caseStudy {
+    border-width: 0 0 0 1px;
+    border-style: solid;
+    border-color: var(--accent-border-color);
+    margin-left: 1rem;
+    padding-left: 1rem;
+}
+
 @media (min-width: 450px) {
     .intro {
         margin: auto;
