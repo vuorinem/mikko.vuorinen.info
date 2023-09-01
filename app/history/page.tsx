@@ -12,7 +12,7 @@ import opekaImage from '../../public/history/opeka_report_screenshot.png'
 export default function History() {
 
     return (
-        <>
+        <div className={styles.history}>
             <h1>History</h1>
             <section className={styles.intro}>
                 <Image
@@ -121,12 +121,26 @@ export default function History() {
                 </p>
             </section>
 
+            <section>
+                <h2>Freelancing over the years</h2>
+                <p>
+                    Ever since I built my first website, I have done various freelance projects to build websites and other web-based systems as a part-time job. The car dealer website grew into several websites for sister companies, with an <b>integration to on-premise sales system</b> (and later on an external SaaS offering the company migrated to). Used car stock was displayed in rea-time on the website, and the sales staff could use a back-office tool to enrich the online view with details that the on-premise system didn&quot;t support. In addition to the website, I also built a calendar system for arranging meetings, tracking holidays, booking meeting rooms and various functions as required. The calendar was in active use for over ten years, and still had some uses after 15 years since its conception, making it my second-longest living online creation. Which brings me to the one in the first place...
+                </p>
+            </section>
+
+            <section className={styles.caseStudy}>
+                <h3>Case study: Lahjalista.net</h3>
+                <p>
+                    The idea for creating a wishlist service came from our family christmas gifting challenges at the time when my older siblings started having children. It was probably my big brother who suggested the idea, and in christmas 2005 I had built a website for our family members to write down what each of us wanted for christmas, and for others to reserve the wishes to avoid others buying the same thing. Next year, I spent a lot of time working on improving it, working with my brother to define a service that could be useful for others as well.
+                </p>
+            </section>
+
             <p className={styles.attributions}>
                 Attributions:
                 {" "}
                 <ExternalLink href="https://de.wikipedia.org/wiki/Datei:Amiga_1000_PAL.jpg">Amiga 1000 PAL by Kaiiv</ExternalLink>
                 {" | "}
             </p>
-        </>
+        </div>
     );
 }
