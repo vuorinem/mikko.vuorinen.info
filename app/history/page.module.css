@@ -22,6 +22,8 @@
 .screenshot {
     background-color: var(--accent-border-color);
     margin-bottom: 0.5rem;
+    display: grid;
+    justify-items: center;
 }
 
 .screenshot p {
@@ -30,11 +32,10 @@
 }
 
 .caseStudy {
-    border-width: 0 1px 0;
+    border-width: 0 0 0 1px;
     border-style: solid;
     border-color: var(--accent-border-color);
-    margin: 0 1rem;
-    padding: 0 1rem;
+    padding: 0 0 0 0.8rem;
 }
 
 @media (min-width: 450px) {
@@ -50,11 +51,15 @@
     .screenshot {
         float: right;
         margin-left: 1.5rem;
-        display: grid;
-        justify-items: center;
     }
 
     .screenshot p {
         font-size: 0.8rem;
+    }
+
+    .caseStudy {
+        border-width: 0 1px 0;
+        margin: 0 1rem;
+        padding: 0 1rem;
     }
 }

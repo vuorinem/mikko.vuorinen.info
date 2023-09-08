@@ -10,6 +10,7 @@ import jklautoImage from '../../public/history/jklautotarvike_screenshot.png'
 import opekaImage from '../../public/history/opeka_report_screenshot.png'
 import lahjalista2010 from '../../public/history/lahjalista-2010.png'
 import lahjalista2013 from '../../public/history/lahjalista-2013.png'
+import kuvapankki from '../../public/history/kuvapankki_screenshot.png'
 
 export default function History() {
 
@@ -121,6 +122,9 @@ export default function History() {
                 <p>
                     The work with Opeka became the main part of my responsibilities at University of Tampere, and allowed me to move from my one year of non-military service placement into a full-time job as a software engineer. Aside Opeka, I worked on several smaller projects, including a prototype application for collaboratively viewing social media streams on <b>multi-touch surface table SUR40</b>, and a message wall <b>displaying SMS and Twitter messages</b> in a conference setting. The four years taught me a lot about the challenges of university research, and gave me a chance to take a lot of responsibility, not just for the software I was building but also for finding and solving problems in the wider context.
                 </p>
+                <p>
+                    The message wall service I worked on at the university started a spin-off project with a company that was interested in the idea. While still working at the university for most of the time, I took a part time job at <ExternalLink href="https://www.mediamaisteri.com/en/">Mediamaisteri</ExternalLink> to furture develop and market the it as a service called Conexting and later Conex First. I did several trips around Finland with our sales representative to demonstrate the service to various organisations, while developing it based on the discussions we had with clients. In my time at Mediamaisteri, I implemented a self-service version of the service with payment integration, and some custom deployments for bigger clients.
+                </p>
             </section>
 
             <section>
@@ -155,6 +159,31 @@ export default function History() {
                 </p>
                 <p>
                     Working on Lahjalista.net has been one of the defining experiences for me. It has taught what is involved in being fully responsible for a customer-facing service in a very small team with very limited time available. I have learned the value of &quot;good enough&quot; over aiming for perfection. I understand that shortcuts, workarounds and technical debt overall are tools I should have in my toolbox, not something that should be categorically avoided. I know how valuable it is to get a working solution out there, but also understand the need to avoid and prepare for the unexpected. Most of all, I have gained experience from working with users, understanding their problems and helping to solve them, incorporating their opinions and ideas into the development process while maintaining a clear vision of what we are aiming for.
+                </p>
+            </section>
+
+            <section>
+                <p>
+                    One of the bigger freelancing projects was <b>kuvapankki.org</b>, which I did for a friend of a friend who was looking for someone to implement their idea of a photo gallery for professional photographers. The core functionality was a photo search based on tags that the photographers could set for photos they uploaded to the service. Users could select the photos they wanted to purchase, and send a purchase request. The UI had to be impressive and give a streamlined experience for users, so it was designed together with the client. One of the additional technical challenges was adding a watermark to the images to discourage using them without permission.
+                </p>
+                <div className={styles.screenshot}>
+                    <Image
+                        src={kuvapankki}
+                        alt="Screenshot from kuvapankki.org gallery page" />
+                    <p>Screenshot from kuvapankki.org photo search</p>
+                </div>
+                <p>
+                    The kuvapankki.org project led to a number of smaller projects, as some of the photographers that were part of it asked me to help with their personal websites and online portfolios. These were small but interesting projects as the focus was quite different from what I was used to: instead of focusing on user experience and conveying information effectively, photohrapger portfolios were intended to represent the individual characteristic and style of the photographer as accurately as possible. I set aside my idea of a &quot;proper&quot; website and worked on them in a very client-led way. Although I think there was nothing wrong with that approach at the time, nowadays I would probably make more effort to apply good practices from my field and dive deeper to understand the essence of what the client wants.
+                </p>
+            </section>
+
+            <section>
+                <h3>Changing the scenery - Move abroad</h3>
+                <p>
+                    In the fall of 2013, life started pulling me to a very different direction as I moved &quot;temporarily&quot; to the UK. For some time, I continued working remotely, but by the following summer the visit to UK started to look less and less temporary. That lead to me looking for work in Aberdeen, Scotland. With my lucky choice of career, finding a job even in a foreign country was not a major challenge, and I ended up landing a software engineer role at <b>Codify</b> (now <ExternalLink href="https://www.sword-codify.com/">Sword Codify</ExternalLink>).
+                </p>
+                <p>
+                    Codify was the first job I had where I was surrounded by other software engineers, even more so than the jobs I have had since then. Of the team of about 25 people, 20 of us were software engineers by trade. That affected the work in two major ways. First of all, most of the people you talked to day-to-day had a very similar way of thinking, which made the communication extremely smooth, but it also made it dangerously engineer-driven. Which brings me to the second point: (almost) every engineer was talking to the client and/or end-users. The responsibility of an engineer was much more than just implementing what was asked for. Especially after some significant managerial changes, engineers were involved in projects all the way starting from the sales discussing and scoping of the project. Based on my experience, it was an extremely welcome change, and I enjoyed every time I got to talk to clients about their problem and together discussed how we could solve them.
                 </p>
             </section>
 
