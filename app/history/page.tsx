@@ -8,6 +8,8 @@ import amigaImage from '../../public/history/amiga.jpg'
 import cardealerImage from '../../public/history/cardealer_screenshot.png'
 import jklautoImage from '../../public/history/jklautotarvike_screenshot.png'
 import opekaImage from '../../public/history/opeka_report_screenshot.png'
+import lahjalista2010 from '../../public/history/lahjalista-2010.png'
+import lahjalista2013 from '../../public/history/lahjalista-2013.png'
 
 export default function History() {
 
@@ -106,7 +108,7 @@ export default function History() {
                     <p>Screenshot from one of the Opeka report pages</p>
                 </div>
                 <p>
-                    The questionnaires were directed to teachers, so we worked directly with them to make sure they could use the system with as little friction as possible, and that the answers were meaningful when analyzing the data. This involved tailoring the contents to hit the perfect balance between the amount of time teachers had to spend answering and the amount of data we could gather. We used graphical question formats and visualizations of respondents&quot; answers compared to their peers to make answering easier and more rewarding. Getting <b>feedback</b> was essential as the technology experience level and the situational context where the system was used was very different from our own.
+                    The questionnaires were directed to teachers, so we worked directly with them to make sure they could use the system with as little friction as possible, and that the answers were meaningful when analyzing the data. This involved tailoring the contents to hit the perfect balance between the amount of time teachers had to spend answering and the amount of data we could gather. We used graphical question formats and visualizations of respondents&apos; answers compared to their peers to make answering easier and more rewarding. Getting <b>feedback</b> was essential as the technology experience level and the situational context where the system was used was very different from our own.
                 </p>
                 <p>
                     Working with schools, the goverment and various administrative bodies was a key part in the project in many ways. To demonstrate the usefulness of Opeka for decision makers we highlighted the importance of gathering the data and showed how our way of gathering it was better than the alternatives. In addition to research publications from the gathered data, we also built various reports into the systems that could be accessed by different levels of administration, and a more restricted public view. Although my role was more on the technical side, I had gained a lot of experience about the subject to give my opinion on contents questions as well, and I was a key part in discussions when planning new features and evaluating their feasibility.
@@ -124,14 +126,35 @@ export default function History() {
             <section>
                 <h2>Freelancing over the years</h2>
                 <p>
-                    Ever since I built my first website, I have done various freelance projects to build websites and other web-based systems as a part-time job. The car dealer website grew into several websites for sister companies, with an <b>integration to on-premise sales system</b> (and later on an external SaaS offering the company migrated to). Used car stock was displayed in rea-time on the website, and the sales staff could use a back-office tool to enrich the online view with details that the on-premise system didn&quot;t support. In addition to the website, I also built a calendar system for arranging meetings, tracking holidays, booking meeting rooms and various functions as required. The calendar was in active use for over ten years, and still had some uses after 15 years since its conception, making it my second-longest living online creation. Which brings me to the one in the first place...
+                    Ever since I built my first website, I have done various freelance projects to build websites and other web-based systems as a part-time job. The car dealer website grew into several websites for sister companies, with an <b>integration to on-premise sales system</b> (and later on an external SaaS offering the company migrated to). Used car stock was displayed in real-time on the website, and the sales staff could use a back-office tool to enrich the online view with details that the on-premise system didn&apos;t support. In addition to the website, I also built a calendar system for arranging meetings, tracking holidays, booking meeting rooms and various functions as required. The calendar was in active use for over ten years, and still had some uses after 15 years since its conception, making it my second-longest living online creation. Which brings me to the one in the first place...
                 </p>
             </section>
 
             <section className={styles.caseStudy}>
                 <h3>Case study: Lahjalista.net</h3>
                 <p>
-                    The idea for creating a wishlist service came from our family christmas gifting challenges at the time when my older siblings started having children. It was probably my big brother who suggested the idea, and in christmas 2005 I had built a website for our family members to write down what each of us wanted for christmas, and for others to reserve the wishes to avoid others buying the same thing. Next year, I spent a lot of time working on improving it, working with my brother to define a service that could be useful for others as well.
+                    The idea for creating a wishlist service came from our family christmas gifting challenges at the time when my older siblings started having children. For the christmas 2005 I built a website where we could list what each of us wanted for christmas. Anyone could reserve the wish to avoid others buying the same gift. Next year, I spent a lot of time working on improving it, working with my brother to define a service that could be useful for people outside our familiy as well. We ended up with <b>Lahjalista.net</b>, a web service where anyone could create a wishlist and share a link to it.
+                </p>
+                <div className={styles.screenshot}>
+                    <Image
+                        src={lahjalista2010}
+                        alt="Screenshot from Lahjalista.net front page" />
+                    <p>Screenshot from Lahjalista.net in its early days</p>
+                </div>
+                <p>
+                    The service was developed and maintained as a side project whenever time allowed, adding features based on user feedback and usage patterns. Several years after its creation, the service had gained popularity especially amongst couples who wanted to create a wish registry for their wedding. Catching up with the trend, we started to think about the business model and develop the service with a focus on weddings. Working with acquaintances with graphic and concept design expertise, the service went through two major updates. We had a strong position to avoid using ads that might distract or degrade the user experience, so we came up with a solution that added value for users while providing a sales channel for parters. Eventually this evolved into an auto-complete functionality for adding wishes, populated throgh an integration with a major retail store and other smaller partners. Some smaller features have also been added to the service, but probably more than that, features have been simplified, hidden or removed to make the user experience for the majority as good as possible.
+                </p>
+                <div className={styles.screenshot}>
+                    <Image
+                        src={lahjalista2013}
+                        alt="Screenshot from Lahjalista.net front page" />
+                    <p>Screenshot from Lahjalista.net after the first UI update</p>
+                </div>
+                <p>
+                    At its most popular years, Lahjalista.net had close to 20 000 monthly visitors during wedding seasons. While there is currently not as much development or business activities around Lahjalista.net, it is still actively used. Developed with <b>PHP</b> framework <b>Yii</b>, the core software has been stable without major rework for over a decade. With a classic <b>MVC</b> archirecture and dynamic parts implemented using <b>jQuery</b>-powered <b>AJAX</b> and custom <b>JavaScript</b>, I am very content with the technology choised I have made in the initial development of the service and throughout the years. That is not to say that I wouldn&apos;t have been tempted to rewrite the whole thing in several occasions, but I have learned how unlikely I would be able to contribute that much time to one of many side projects.
+                </p>
+                <p>
+                    Working on Lahjalista.net has been one of the defining experiences for me. It has taught what is involved in being fully responsible for a customer-facing service in a very small team with very limited time available. I have learned the value of &quot;good enough&quot; over aiming for perfection. I understand that shortcuts, workarounds and technical debt overall are tools I should have in my toolbox, not something that should be categorically avoided. I know how valuable it is to get a working solution out there, but also understand the need to avoid and prepare for the unexpected. Most of all, I have gained experience from working with users, understanding their problems and helping to solve them, incorporating their opinions and ideas into the development process while maintaining a clear vision of what we are aiming for.
                 </p>
             </section>
 
