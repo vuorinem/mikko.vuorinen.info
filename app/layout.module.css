@@ -1,6 +1,6 @@
 .container {
   min-height: 100vh;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
   display: grid;
   grid-template-rows: auto 1fr auto;
   max-width: 1200px;
@@ -49,6 +49,10 @@
 }
 
 @media (min-width: 450px) {
+  .container {
+    padding: 0 2rem;
+  }
+
   .footer {
     display: flex;
   }
