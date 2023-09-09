@@ -1,17 +1,22 @@
-.history p {
-    text-align: justify;
+.intro {
+    display: grid;
+    align-items: center;
+}
+
+.intro img {
+    margin: auto;
 }
 
 .intro p {
     margin: 0;
     font-size: 1.4rem;
     color: var(--muted-text-color);
-    text-align: left;
+    text-align: center;
 }
 
 .borderedImage,
 .screenshot {
-    border: 0.8rem solid var(--accent-border-color);
+    border: 0.4rem solid var(--accent-border-color);
     border-radius: 5px;
 }
 
@@ -29,6 +34,7 @@
 .screenshot p {
     margin: 0;
     padding-top: 3px;
+    font-size: 0.8rem;
 }
 
 .caseStudy {
@@ -39,22 +45,25 @@
 }
 
 @media (min-width: 450px) {
+    .history p {
+        text-align: justify;
+    }
+
     .intro {
         margin: auto;
         max-width: 800px;
-        display: grid;
         grid-template-columns: auto 1fr;
         column-gap: 1.5rem;
-        align-items: center;
+    }
+
+    .borderedImage,
+    .screenshot {
+        border-width: 0.8rem;
     }
 
     .screenshot {
         float: right;
         margin-left: 1.5rem;
-    }
-
-    .screenshot p {
-        font-size: 0.8rem;
     }
 
     .caseStudy {
