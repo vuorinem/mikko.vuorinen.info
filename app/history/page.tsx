@@ -29,6 +29,7 @@ export default function History() {
 
             <section>
                 <h2>Gateway to programming: Gaming</h2>
+                <h4>From the very beginning, years &#9608;&#9608;&#9608;&#9608; to 1999</h4>
                 <p>
                     My first experience with a computer was not the famous Commodore 64 (unlike most of my friends at the time), but a more forgettable PC of some kind, possibly an Amiga. My computer literacy as a pre-schooler was limited to typing a few memorised commands to the <ExternalLink href="https://en.wikipedia.org/wiki/MS-DOS">MS DOS</ExternalLink> prompt in order to run <ExternalLink href="https://en.wikipedia.org/wiki/Bubble_Bobble">Bubble Bobble</ExternalLink>. I played it incessantly, so my big brother blocked me from playing the game by renaming the executable. When I finally got him to tell me the &quot;password&quot; to start the game, I wrote it down to a note, never to be forgotten. And indeed, still today I remember <code>aefthukn</code> being the command to start Bubble Bobble.
                 </p>
@@ -39,6 +40,7 @@ export default function History() {
 
             <section>
                 <h2>The Internet and The Web - The Dream(weaver)</h2>
+                <h4>Roughly my senior high years from 1999 to 2002</h4>
                 <div className={styles.screenshot}>
                     <Image
                         src={cardealerImage}
@@ -54,6 +56,7 @@ export default function History() {
             </section>
             <section>
                 <h2>The Long University Years</h2>
+                <h4>From entering university at 2002 to about 2006</h4>
                 <p>
                     When it was time to decide what to do after graduating upper secondary school, I took the easy choice of applying to a university that was in my home city Jyväskylä. The course I selected was <b>Information Systems Science</b>, where I could continue to learn about programming, and start to build more theoretical understanding about software engineering as a whole. For the first year, I thrived in the challenging environment and took as many classes as I possibly could. My experience in programming helped me to stay on top of the practical side of the studies, and I was extremely interested in learning about the rest, especially anything about software engineering methodologies. I started learning about <b>Waterfall</b>, <ExternalLink href="https://en.wikipedia.org/wiki/Rational_unified_process">RUP</ExternalLink>, <b>UML</b> &ndash; and my new sage, <ExternalLink href="https://en.wikipedia.org/wiki/Extreme_programming">XP</ExternalLink>. While learning new languages like <b>Java</b> and <b>Delphi</b> was interesting, I found myself most fascinated by more theoretical parts such as <b>object-oriented design</b>, <b>database design</b> and <b>architecture</b>.
                 </p>
@@ -63,6 +66,7 @@ export default function History() {
             </section>
             <section>
                 <h2>Growing into a web developer</h2>
+                <h4>Somewhere between 2004 and 2007</h4>
                 <p>
                     During all the years of studying, I continued learning about web development in my free time, and built more and more complicated web systems, sometimes making some extra money from it. One of the most educational experiences was building my own <b>web framework</b>. I had learned more about frontend and backend technologies, and <b>PHP</b> had become my main language on the server-side (after short spurts with <b>SSI</b> and <b>PERL</b> via CGI). The first version of the framework formed naturally: I took common functionality of various websites I had built and put them in a form that can be easily re-used, and then expanding it into a template for new websites. The second version was built more purposefully, and I used the experience from previous websites to make sure it is configurable and extendable to support all the necessary use cases. After using the framework to build several websites and updating it to adapt to new needs, I began to realise the amount of work it required. That is the kind of experience that helps me to always appreciate the frameworks and their developers now that I&apos;m smart enough to not build my own.
                 </p>
@@ -81,6 +85,7 @@ export default function History() {
             </section>
             <section>
                 <h2>Growing into an adult human</h2>
+                <h4>From 2007 until graduation at 2010</h4>
                 <p>
                     So far I had lived in a relative safety of my home country, in a relative ease of doing mostly things that I was comfortable with and relatively good at. My growing interest in Japan through anime was pulling me into a different direction. Before I knew it, I was taking Japanese lessons, and with a little push from my big brother I was on a plane, on my way to <ExternalLink href="https://www.tohoku.ac.jp/en/">Tohoku University</ExternalLink> in Sendai. Ahead of me was a for a full year as an exchange student, completely new and unfamiliar environment and a completely different lifestyle. From the second I landed in Tokyo for a week of solo travelling before the semester start, I felt the nervousness turn into excitement and then into a elated sense of wonder. Only over a decade later did I start to understand myself enough to see the pattern: I thrive when exploring unfamiliar terrain and facing the unknown.
                 </p>
@@ -96,6 +101,7 @@ export default function History() {
             </section>
             <section>
                 <h2>Start of career</h2>
+                <h4>The time at Tampere University from 2010 to 2014</h4>
                 <p>
                     After graduating from university, I wanted to deal with the general conscription, which is required for most men in Finland before they turn 30. As a pacifist, military service was out of question, so I applied for non-military service in <b>University of Tampere</b> (now part of Tampere University). I took part in several research projects, usually assisting the researchers in interviews, transcriptions and write-ups, but slowly drifting towards tasks where I could better apply my software knowledge. After co-authoring <ExternalLink href="https://trepo.tuni.fi/handle/10024/65716">a guide for selecting a wiki tool</ExternalLink>, I moved to a project called Opeka. The work with Opeka became the main part of my responsibilities at University of Tampere, and allowed me to move from my one year of non-military service placement into a full-time job as a software engineer.
                 </p>
@@ -132,6 +138,7 @@ export default function History() {
 
             <section>
                 <h2>Freelancing over the years</h2>
+                <h4>During spare time all the way from 1999 until about 2017</h4>
                 <p>
                     Ever since I built my first website at the end of 90&apos;s, I have done various freelance projects to build websites and other web-based systems aside my day job, university studies or school responsibilities. Some of the systems have been for paying clients, others for various personal projects, but all of them have helped me learn more about web development.
                 </p>
@@ -184,7 +191,8 @@ export default function History() {
             </section>
 
             <section>
-                <h3>Changing the scenery - Move abroad</h3>
+                <h2>Changing the scenery - Move abroad</h2>
+                <h4>From the move to Leicester in 2013, to Aberdeen in 2014, all the way to summer 2019</h4>
                 <p>
                     In the fall of 2013, life started pulling me to a very different direction as I moved &quot;temporarily&quot; to the UK. For some time, I continued working remotely, but by the following summer the visit to UK started to look less and less temporary. That lead to me looking for work in Aberdeen, Scotland. With my lucky choice of career, finding a job even in a foreign country was not a major challenge, and I ended up landing a Software Engineer role at <b>Codify</b> (now <ExternalLink href="https://www.sword-codify.com/">Sword Codify</ExternalLink>).
                 </p>
