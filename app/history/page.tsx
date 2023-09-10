@@ -113,10 +113,12 @@ export default function History() {
                 </div>
                 <p>
                     The questionnaires were directed to teachers, so we worked directly with them to make sure they could use the system with as little friction as possible, and that the answers were meaningful when analyzing the data. This involved tailoring the contents to hit the perfect balance between the amount of time teachers had to spend answering and the amount of data we could gather. We used graphical question formats and visualizations of respondents&apos; answers compared to their peers to make answering easier and more rewarding. Getting <b>feedback</b> was essential as the technology experience level and the situational context where the system was used was very different from our own.
-                    [FB: Add details about the scale of Opeka]
                 </p>
                 <p>
                     Working with schools, the goverment and various administrative bodies was a key part in the project in many ways. To demonstrate the usefulness of Opeka for decision makers we highlighted the importance of gathering the data and showed how our way of gathering it was better than the alternatives. In addition to research publications from the gathered data, we also built various reports into the systems that could be accessed by different levels of administration, and a more restricted public view. Although my role was more on the technical side, I had gained a lot of experience about the subject to give my opinion on contents questions as well, and I was a key part in discussions when planning new features and evaluating their feasibility.
+                </p>
+                <p>
+                    We made Opeka into a nationwide system for evaluating information and communication technology usage in schools in Finland. It had to be able to handle thousands of respondents and distribute reports for schools, municipalities and goverment-level administrators. Several tools were created for cleaning up the data with as much automation as possible, while improving the questionnaires to minimize the need for clean-up in the future.
                 </p>
             </section>
             <section>
