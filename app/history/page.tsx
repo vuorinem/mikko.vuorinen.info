@@ -232,6 +232,26 @@ export default function History() {
                 <p>
                     Working at Codify and the direct interaction with clients was very rewarding, but over the years I started to want something bigger, more challenging, more risk-taking. Moving away from Aberdeen to Edinburgh in 2019 was the trigger to look for a new opportunity. I spent couple of months working remotely for Codify while researching local software companies and interviewing for several interesting options. Soon I landed on <ExternalLink href="https://condatis.com/">Condatis</ExternalLink>, an identity-focused branch of <ExternalLink href="https://sitekit.co.uk/">Sitekit</ExternalLink> (later separating into its own separate corporate entity), as a senior software developer.
                 </p>
+                <p>
+                    [Condatis early years, AAD B2C and Azure in general]
+                </p>
+                <p>
+                    [Condatis lead dev years, SSI/DID and line management responsibilities]
+                </p>
+                <p>
+                    [Move from Condatis to IW]
+                </p>
+                <p>
+                    [Leaving IW]
+                </p>
+            </section>
+
+            <section>
+                <h2>The next chapter</h2>
+                <h4>From fall 2013 until <code>&#123;new Date().getFullYear()&#125;</code></h4>
+                <p>
+                    The last part of my history starts when I move back to Finland, but that part is yet to be written, as it is yet to be lived. I have spent a couple of months looking into opportunities in Finland, and trying to find a company that could truly be the place where I can feel that I belong, without having to stay the version of myself that I am today. The ultimate goal I have for my career is to learn, and as long as I&apos;m learning about things that I feel passionate about, I am sure to be on the right path.
+                </p>
             </section>
 
             <p className={styles.attributions}>
