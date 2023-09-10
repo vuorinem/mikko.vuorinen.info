@@ -20,8 +20,10 @@
 
 .borderedImage,
 .screenshot {
-    border: 0.4rem solid var(--accent-border-color);
+    border: 0.5rem solid var(--accent-border-color);
     border-radius: 5px;
+    background-color: var(--accent-border-color);
+    margin-bottom: 0.5rem;
 }
 
 .attributions {
@@ -29,16 +31,16 @@
 }
 
 .screenshot {
-    background-color: var(--accent-border-color);
-    margin-bottom: 0.5rem;
+    width: calc(1rem + 300px);
     display: grid;
-    justify-items: center;
+    justify-content: center;
 }
 
 .screenshot p {
     margin: 0;
     padding-top: 3px;
     font-size: 0.8rem;
+    width: 100%;
 }
 
 .caseStudy {
@@ -61,10 +63,6 @@
     }
 
     .borderedImage,
-    .screenshot {
-        border-width: 0.8rem;
-    }
-
     .screenshot {
         float: right;
         margin-left: 1.5rem;
