@@ -11,6 +11,7 @@ import opekaImage from '../../public/history/opeka_report_screenshot.png'
 import lahjalista2010 from '../../public/history/lahjalista-2010.png'
 import lahjalista2013 from '../../public/history/lahjalista-2013.png'
 import kuvapankki from '../../public/history/kuvapankki_screenshot.png'
+import edinburghImage from '../../public/history/edinburgh_castle.jpg'
 
 export default function History() {
 
@@ -229,6 +230,11 @@ export default function History() {
             <section>
                 <h2>Focusing on IAM in the Scottich capital</h2>
                 <h4>The Edinburgh time from 2019 to 2023</h4>
+                <div className={styles.borderedImage}>
+                    <Image
+                        src={edinburghImage}
+                        alt="Edinburgh castle" />
+                </div>
                 <p>
                     Working at Codify and the direct interaction with clients was very rewarding, but over the years I started to want something bigger, more challenging, more risk-taking. Moving away from Aberdeen to Edinburgh in 2019 was the trigger to look for a new opportunity. I spent couple of months working remotely for Codify while researching local software companies and interviewing for several interesting options. Soon I landed on <ExternalLink href="https://condatis.com/">Condatis</ExternalLink>, an identity-focused branch of <ExternalLink href="https://sitekit.co.uk/">Sitekit</ExternalLink> (later separating into its own separate corporate entity), as a senior software developer.
                 </p>
