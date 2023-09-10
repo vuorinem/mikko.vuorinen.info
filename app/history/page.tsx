@@ -202,9 +202,6 @@ export default function History() {
                 <p>
                     I spent over five years at Codify, which was all the time I lived in Aberdeen. The technologies used in earlier projects were mainly <b>WPF</b>, <b>WCF</b> and <b>ASP.NET MVC</b>, with <b>MSSQL</b> being the go-to database solution. After the first couple of years I started to crave for more web-focused projects, so I considered switching companies, but I was convinced to stay by getting responsibilities that were better fit for my interests and goals. I started looking into a <b>SPA</b> framework called <ExternalLink href="https://aurelia.io/">Aurelia</ExternalLink>, and eventually became a major force to drive the adaptation of modern web technologies by building necessary tooling and helping other developers, earning the title of Senior Software Engineer in 2017 to match the role. Our projects were also increasingly starting to utilize <b>Azure</b>, which was an extremely interesting set of services. My interest in modern technologies got boosted further by events and conferences I was able to attend, for example <b>NDC</b> in Oslo and London and <b>Azure Dev Tour</b> in London. I also started to gain more specialized knowledge about authentication and authorization protocols for the web as some applications I built utilized <b>OAuth</b> and <b>OpenID Connect</b> with <b>Azure AD B2C</b> for logging in.
                 </p>
-                <p>
-                    Several applications I worked on at Codify were focused on data visualization. One of them was a tool that allowed visualizing and tagging a 3D environment based on a set of point cloud scenes generated from high-accuracy photographs. I worked a bit on the main desktop application, but I was mostly focused on the web version that we started developing at the time. The browser application used <b>WebGL</b>-based <ExternalLink href="https://threejs.org/">three.js</ExternalLink> library to provide the 3D visualization using data from the API of the main application,without having to install anything on the end-user&apos;s machine. Another example was an online ship route visualizing tool that used planned ship schedules to animate the ships moving over the globe, and detected if there was a risk of collision. The map was displayed using <ExternalLink href="https://leafletjs.com/">Leaflet</ExternalLink> and <ExternalLink href="https://www.openstreetmap.org/">OpenStreetMap</ExternalLink>.
-                </p>
             </section>
 
             <section className={styles.caseStudy}>
@@ -224,6 +221,14 @@ export default function History() {
             </section>
 
             <section>
+                <p>
+                    Several other applications I worked on at Codify were focused on novel data visualizations. One of them was a tool that allowed visualizing and tagging a 3D environment based on a set of point cloud scenes generated from high-accuracy photographs. I worked a bit on the main desktop application, but I was mostly focused on the web version that we started developing at the time. The browser application used <b>WebGL</b>-based <ExternalLink href="https://threejs.org/">three.js</ExternalLink> library to provide the 3D visualization using data from the API of the main application, without having to install anything on the end-user&apos;s machine. Another example was an online ship route visualizing tool that used planned ship schedules to animate the ships moving over the globe, and detected if there was a risk of collision. The map was displayed using <ExternalLink href="https://leafletjs.com/">Leaflet</ExternalLink> and <ExternalLink href="https://www.openstreetmap.org/">OpenStreetMap</ExternalLink>.
+                </p>
+            </section>
+
+            <section>
+                <h2>Focusing on IAM in the Scottich capital</h2>
+                <h4>The Edinburgh time from 2019 to 2023</h4>
                 <p>
                     Working at Codify and the direct interaction with clients was very rewarding, but over the years I started to want something bigger, more challenging, more risk-taking. Moving away from Aberdeen to Edinburgh in 2019 was the trigger to look for a new opportunity. I spent couple of months working remotely for Codify while researching local software companies and interviewing for several interesting options. Soon I landed on <ExternalLink href="https://condatis.com/">Condatis</ExternalLink>, an identity-focused branch of <ExternalLink href="https://sitekit.co.uk/">Sitekit</ExternalLink> (later separating into its own separate corporate entity), as a senior software developer.
                 </p>
