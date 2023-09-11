@@ -248,8 +248,16 @@ export default function History() {
                     After several projects on B2C, in fall of 2020, I got an opportunity to get involved in work that Condatis was doing around fairly revolutionary idea called <b>Decentralized Identity</b> (also called <b>Self-Sovereign Identity</b>). While the company had worked with similar techonlogy previously, now it was dedicating considerable resources to become one of the leading companies in the area. In the beginning I worked on few prototypes, and started familiarising myself with the technology and its applications. As a very new technology, there were not many easy-to-digest resources available, so my main sources of learning were the draft W3C documents (now official recommendations <ExternalLink href="https://www.w3.org/TR/did-core/">Decentralised Identifiers</ExternalLink> and <ExternalLink href="https://www.w3.org/TR/vc-data-model/">Verifiable Credentials Data Model</ExternalLink>), RFCs for projects such as <ExternalLink href="https://github.com/hyperledger/aries-rfcs">Hyperledger Aries</ExternalLink>, and the examples and documentation provided by some companies that offered services utilising Decentralized Identity.
                 </p>
                 <p>
-                    Condatis started to put more and more emphasis on Decentralised Identity expertise, and as one of the most passionate developers in that area, I was keen to share my knowledge within and outside the company. I co-hosted webinars and wrote some blog posts, as much to solidify my own learning as to help others learn. In 2021 I became the lead developer in the team that developed the Decentralised Identity service. 
-                    [Condatis lead dev years, SSI/DID and line management responsibilities]
+                    Condatis started to put more and more emphasis on Decentralised Identity expertise, and as one of the most passionate developers in that area, I was keen to share my knowledge within and outside the company. I co-hosted webinars and wrote some blog posts, as much to solidify my own learning as to help others learn. In 2021 I became the lead developer in the team building Condatis&apos;s Decentralised Identity service and customizing it for clients. My role was more and more about planning how to implement new features, making sure they were undestood across the team, and helping with especially tricky parts of the implementation.
+                </p>
+                <p>
+                    As a lead developer, I was given line management responsibilities for two direct reports. The role of a line manager consisted mainly of personal support outside the day-to-day technical role and some administrative tasks. I thoroughly enjoy coaching and helping people to learn and advance in their journey as a software engineer, but I found it difficult to see how I would be the right person to offer them the people-focused support they deserve. However, I took part in the management course that was offered, and did my best to help my direct reports in my own way.
+                </p>
+                <p>
+                    I also worked on a small project where the idea was to use Microsoft&apos;s decentralized identity stack to build a proof of concept for issuing student cards, degree transcripts and training certificates. Together with people from Microsoft and the client, we planned, designed and delivered the PoC. It was exciting to work directly with Microsoft&apos;s representatives and be part of an important project to showcase their technology.
+                </p>
+                <p>
+                    While working at Condatis, I was very vocal about the issues I saw in the processes and ways of working, same way as I was at Codify. I had several discussions with the company leadership where I would give earnest feedback (about the system, never about individuals) and highlight what I thought were the painpoints that held back myself and the team from delivering better results. Whether the issues were engineering-related or stemmed from business priorities, I felt the need to bring them up to drive positive change.
                 </p>
                 <p>
                     [Move from Condatis to IW]
@@ -273,6 +281,6 @@ export default function History() {
                 <ExternalLink href="https://de.wikipedia.org/wiki/Datei:Amiga_1000_PAL.jpg">Amiga 1000 PAL by Kaiiv</ExternalLink>
                 {" | "}
             </p>
-        </div>
+        </div >
     );
 }
