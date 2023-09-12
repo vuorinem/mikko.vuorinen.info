@@ -10,6 +10,7 @@ import jklautoImage from '../../public/history/jklautotarvike_screenshot.png'
 import opekaImage from '../../public/history/opeka_report_screenshot.png'
 import lahjalista2010 from '../../public/history/lahjalista-2010.png'
 import lahjalista2013 from '../../public/history/lahjalista-2013.png'
+import lahjalista2017 from '../../public/history/lahjalista-2017.png'
 import kuvapankki from '../../public/history/kuvapankki_screenshot.png'
 import edinburghImage from '../../public/history/edinburgh_castle.jpg'
 
@@ -42,11 +43,11 @@ export default function History() {
             <section>
                 <h2>The Internet and The Web - The Dream(weaver)</h2>
                 <h4>Roughly my senior high years from 1999 to 2002</h4>
-                <div className={styles.screenshot}>
+                <div className={styles.borderedImage}>
                     <Image
                         src={cardealerImage}
                         alt="Screenshot from an old website with a menu and a form in Finnish" />
-                    <p><ExternalLink href="https://web.archive.org/">Web archive</ExternalLink> screenshot from the first commercial website I built</p>
+                    <p><ExternalLink href="https://web.archive.org/">Web archive</ExternalLink> screenshot from the first commercial website I built for a local car dealer</p>
                 </div>
                 <p>
                     While making games had taken its place as my ultimate goal for learning programming, I started to dabble with building things for the internet and creating my own websites. <b>C++</b> turned out to be less than ideal for the web, so while I have later tried building an <ExternalLink href="https://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</ExternalLink> bot and a simple web server with it, I quickly started looking for more suitable tools. After learning to use applications such as <ExternalLink href="https://en.wikipedia.org/wiki/Microsoft_FrontPage">FrontPage</ExternalLink> and <ExternalLink href="https://en.wikipedia.org/wiki/Dreamweaver">Dreamweaver</ExternalLink>, and getting familiar with languages like <b>HTML</b> and <b>CSS</b>, I built my first commercial website for a local car dealer. Eventually, that turned into building several web-based systems for them in the coming decade. It also gave me a nudge to start learing more about the web in general, how it works, and how we can get the most out of it.
@@ -71,11 +72,11 @@ export default function History() {
                 <p>
                     During all the years of studying, I continued learning about web development in my free time, and built more and more complicated web systems, sometimes making some extra money from it. One of the most educational experiences was building my own <b>web framework</b>. I had learned more about frontend and backend technologies, and <b>PHP</b> had become my main language on the server-side (after short spurts with <b>SSI</b> and <b>PERL</b> via CGI). The first version of the framework formed naturally: I took common functionality of various websites I had built and put them in a form that can be easily re-used, and then expanding it into a template for new websites. The second version was built more purposefully, and I used the experience from previous websites to make sure it is configurable and extendable to support all the necessary use cases. After using the framework to build several websites and updating it to adapt to new needs, I began to realise the amount of work it required. That is the kind of experience that helps me to always appreciate the frameworks and their developers now that I&apos;m smart enough to not build my own.
                 </p>
-                <div className={styles.screenshot}>
+                <div className={styles.borderedImage}>
                     <Image
                         src={jklautoImage}
                         alt="Screenshot from Jyväskylän Autotarvike Oy website" />
-                    <p>Screenshot from the same car dealer website in 2013</p>
+                    <p>The same car dealer website in 2013</p>
                 </div>
                 <p>
                     The PHP framework I adopted after moving away from my own was <ExternalLink href="https://www.yiiframework.com/">Yii</ExternalLink>. It served well for a long time, and I didn&apos;t see a need to switch to something else, even after trying out popular ones like <b>Drupal</b>, <b>CakePHP</b> and <b>Symphony</b>. Later on, I would learn a lot more about all the different aspects of selecting a framework. Most of them are not easily visible when working by myself on websites that don&apos;t get many changes, but they become more evident when considering work in a team of diverse professionals, recruitment challenges, complex deployment pipelines, support and maintenance and so on.
@@ -112,11 +113,11 @@ export default function History() {
                 <p>
                     <b>Opeka</b> is a tool to gather data from school teachers about they use information technology (see <ExternalLink href="https://opeka.fi/en/presentation/index">What is Opeka?</ExternalLink>). With a project researcher who focused on the research questions and the analysis of the data, my role was to be the software expert in the team, taking care of the <b>technical design and implementation</b> of the system. But with mostly just the two of us in the team, it was very much a collaborative effort in all parts. We worked in a very <b>iterative</b> way, going through multiple versions where the contents and functionality was improved and increased in each iteration, as well as the number of respondents and the project scale overall. We conducted <b>pilot study</b> to test the <b>usability</b> of the system and to refine the question set before releasing the first public version to selected schools.
                 </p>
-                <div className={styles.screenshot}>
+                <div className={styles.borderedImage}>
                     <Image
                         src={opekaImage}
                         alt="Screenshot from Opeka report page" />
-                    <p>Screenshot from one of the Opeka report pages</p>
+                    <p>One of the Opeka report pages</p>
                 </div>
                 <p>
                     The questionnaires were directed to teachers, so we worked directly with them to make sure they could use the system with as little friction as possible, and that the answers were meaningful when analyzing the data. This involved tailoring the contents to hit the perfect balance between the amount of time teachers had to spend answering and the amount of data we could gather. We used graphical question formats and visualizations of respondents&apos; answers compared to their peers to make answering easier and more rewarding. Getting <b>feedback</b> was essential as the technology experience level and the situational context where the system was used was very different from our own.
@@ -153,21 +154,27 @@ export default function History() {
                 <p>
                     When all the three of my older siblings started to have their own children, planning the gift-giving for our family Christmas gathering became quite a challenge. Most of us had things we wanted to get, instead of receiving something that would end up unused. And everyone wanted to give something useful, but avoid buing the same gift as someone else. These challenges gave birth to an idea for an online wishlist service. For the christmas 2005 I built a website where we could list what each of us wanted for christmas. Anyone could then go and reserve the wish, preventing others from buying the same gift. Next year, I spent a lot of time improving it, working with my brother to define a service that could be useful for people outside our familiy as well. We ended up with <b>Lahjalista.net</b>, a web service where anyone could create a wishlist and share a link to it.
                 </p>
-                <div className={styles.screenshot}>
+                <div className={styles.borderedImage}>
                     <Image
                         src={lahjalista2010}
                         alt="Screenshot from Lahjalista.net front page" />
-                    <p>Screenshot from Lahjalista.net in its early days</p>
+                    <p>Lahjalista.net in its early days</p>
+                </div>
+                <div className={styles.borderedImage}>
+                    <Image
+                        src={lahjalista2013}
+                        alt="Screenshot from Lahjalista.net front page" />
+                    <p>Lahjalista.net after the first UI update</p>
+                </div>
+                <div className={styles.borderedImage}>
+                    <Image
+                        src={lahjalista2017}
+                        alt="Screenshot from Lahjalista.net front page" />
+                    <p>Current Lahjalista.net front page</p>
                 </div>
                 <p>
                     The service was developed and maintained as a side project whenever time allowed, adding features based on user feedback and usage patterns. Several years after its creation, the service had gained popularity especially amongst couples who wanted to create a wish registry for their wedding. Catching up with the trend, we started to think about the business model and develop the service with a focus on weddings. Working with acquaintances with graphic and concept design expertise, the service went through two major updates. We had a strong position to avoid using ads that might distract or degrade the user experience, so we came up with a solution that added value for users while providing a sales channel for parters. Eventually this evolved into an auto-complete functionality for adding wishes, populated throgh an integration with a major retail store and other smaller partners. Some smaller features have also been added to the service, but probably more than that, features have been simplified, hidden or removed to make the user experience for the majority as good as possible.
                 </p>
-                <div className={styles.screenshot}>
-                    <Image
-                        src={lahjalista2013}
-                        alt="Screenshot from Lahjalista.net front page" />
-                    <p>Screenshot from Lahjalista.net after the first UI update</p>
-                </div>
                 <p>
                     At its most popular years, Lahjalista.net had close to 20 000 monthly visitors during wedding seasons. While there is currently not as much development or business activities around Lahjalista.net, it is still actively used. Developed with <b>PHP</b> framework <b>Yii</b>, the core software has been stable without major rework for over a decade. With a classic <b>MVC</b> archirecture and dynamic parts implemented using <b>jQuery</b>-powered <b>AJAX</b> and custom <b>JavaScript</b>, I am very content with the technology choises I have made in the initial development of the service and throughout the years. That is not to say that I wouldn&apos;t have been tempted to rewrite the whole thing in several occasions, but I have learned how unlikely I would be able to contribute that much time to one of many side projects.
                 </p>
@@ -180,11 +187,11 @@ export default function History() {
                 <p>
                     One of the bigger freelancing projects was <b>kuvapankki.org</b>, which I did for a friend of a friend who was looking for someone to implement their idea of a photo gallery for professional photographers. The core functionality was a photo search based on tags that the photographers could set for photos they uploaded to the service. Users could select the photos they wanted to purchase, and send a purchase request. The UI had to be impressive and give a streamlined experience for users, so it was designed together with the client. One of the additional technical challenges was adding a watermark to the images to discourage using them without permission.
                 </p>
-                <div className={styles.screenshot}>
+                <div className={styles.borderedImage}>
                     <Image
                         src={kuvapankki}
                         alt="Screenshot from kuvapankki.org gallery page" />
-                    <p>Screenshot from kuvapankki.org photo search</p>
+                    <p>Photo search page in kuvapankki.org</p>
                 </div>
                 <p>
                     The kuvapankki.org project led to a number of smaller projects, as some of the photographers that were part of it asked me to help with their personal websites and online portfolios. These were small but interesting projects as the focus was quite different from what I was used to: instead of focusing on user experience and conveying information effectively, photographer portfolios were intended to represent the individual characteristic and style of the photographer as accurately as possible. I set aside my idea of a &quot;proper&quot; website and worked on them in a very client-led way. Although I think there was nothing wrong with that approach at the time, nowadays I would probably make more effort to apply good practices from my field and dive deeper to understand the essence of what the client wants.
@@ -233,7 +240,8 @@ export default function History() {
                 <div className={styles.borderedImage}>
                     <Image
                         src={edinburghImage}
-                        alt="Edinburgh castle" />
+                        alt="Edinburgh castle pictured from the bottom of the hill" />
+                    <p>Edinburgh Castle from the south side of the Castle Hill</p>
                 </div>
                 <p>
                     Working at Codify and the direct interaction with clients was very rewarding, but over the years I started to want something bigger, more challenging, more risk-taking. Moving away from Aberdeen to Edinburgh in 2019 worked for me as a trigger to look for a new opportunity. I spent couple of months working remotely for Codify while researching local software companies and interviewing for several interesting options. Soon I landed on <ExternalLink href="https://condatis.com/">Condatis</ExternalLink>, an identity-focused branch of <ExternalLink href="https://sitekit.co.uk/">Sitekit</ExternalLink> (later separating into its own separate corporate entity), as a senior software developer. One of the main draws of the position was an opportunity to work with some cutting-edge identity technologies. The fact that it involved blockchain was not that interesting in itself, but it showed that the company was at least portraying itself as modern and ready to take some risks.
@@ -248,7 +256,7 @@ export default function History() {
                     After several projects on B2C, in fall of 2020, I got an opportunity to get involved in work that Condatis was doing around fairly revolutionary idea called <b>Decentralized Identity</b> (also called <b>Self-Sovereign Identity</b>). While the company had worked with similar techonlogy previously, now it was dedicating considerable resources to become one of the leading companies in the area. In the beginning I worked on few prototypes, and started familiarising myself with the technology and its applications. As a very new technology, there were not many easy-to-digest resources available, so my main sources of learning were the draft W3C documents (now official recommendations <ExternalLink href="https://www.w3.org/TR/did-core/">Decentralised Identifiers</ExternalLink> and <ExternalLink href="https://www.w3.org/TR/vc-data-model/">Verifiable Credentials Data Model</ExternalLink>), RFCs for projects such as <ExternalLink href="https://github.com/hyperledger/aries-rfcs">Hyperledger Aries</ExternalLink>, and the examples and documentation provided by some companies that offered services utilising Decentralized Identity.
                 </p>
                 <p>
-                    Condatis started to put more and more emphasis on Decentralised Identity expertise, and as one of the most passionate developers in that area, I was keen to share my knowledge within and outside the company. I co-hosted webinars and wrote some blog posts, as much to solidify my own learning as to help others learn. In 2021 I became the lead developer in the team building Condatis&apos;s Decentralised Identity service and customizing it for clients. My role was more and more about planning how to implement new features, making sure they were undestood across the team, and helping with especially tricky parts of the implementation.
+                    Condatis started to put more and more emphasis on Decentralised Identity expertise, and as one of the most passionate developers in that area, I was keen to share my knowledge within and outside the company. I co-hosted webinars and wrote some blog posts, as much to solidify my own learning as to help others learn. In 2021 I became the <b>Lead Developer</b> in the team building Condatis&apos;s Decentralised Identity service and customizing it for clients. My role was more and more about planning how to implement new features, making sure they were undestood across the team, and helping with especially tricky parts of the implementation.
                 </p>
                 <p>
                     As a lead developer, I was given line management responsibilities for two direct reports. The role of a line manager consisted mainly of personal support outside the day-to-day technical role and some administrative tasks. I thoroughly enjoy coaching and helping people to learn and advance in their journey as a software engineer, but I found it difficult to see how I would be the right person to offer them the people-focused support they deserve. However, I took part in the management course that was offered, and did my best to help my direct reports in my own way.

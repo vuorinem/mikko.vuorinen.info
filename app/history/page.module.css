@@ -18,29 +18,26 @@
     text-align: center;
 }
 
-.borderedImage,
-.screenshot {
+.borderedImage {
     border: 0.5rem solid var(--accent-border-color);
     border-radius: 5px;
     background-color: var(--accent-border-color);
     margin-bottom: 0.5rem;
-}
-
-.attributions {
-    font-size: 0.8em;
-}
-
-.screenshot {
     width: calc(1rem + 300px);
     display: grid;
     justify-content: center;
 }
 
-.screenshot p {
+.borderedImage p {
     margin: 0;
     padding-top: 3px;
     font-size: 0.8rem;
     width: 100%;
+    text-align: center;
+}
+
+.attributions {
+    font-size: 0.8em;
 }
 
 .caseStudy {
@@ -62,10 +59,14 @@
         column-gap: 1.5rem;
     }
 
-    .borderedImage,
-    .screenshot {
+    .borderedImage {
         float: right;
+        clear: right;
         margin-left: 1.5rem;
+    }
+
+    .borderedImage p {
+        text-align: center;
     }
 
     .caseStudy {
