@@ -42,7 +42,7 @@ export default function History() {
 
             <section>
                 <h2>The Internet and The Web - The Dream(weaver)</h2>
-                <h4>Roughly my senior high years from 1999 to 2002</h4>
+                <h4>Senior high years from 1999 to 2002 (roughly)</h4>
                 <div className={styles.borderedImage}>
                     <Image
                         src={cardealerImage}
@@ -87,7 +87,7 @@ export default function History() {
             </section>
             <section>
                 <h2>Growing into an adult human</h2>
-                <h4>From 2007 until graduation at 2010</h4>
+                <h4>From world travels in 2007 until graduation at 2010</h4>
                 <p>
                     So far I had lived in a relative safety of my home country, in a relative ease of doing mostly things that I was comfortable with and relatively good at. My growing interest in Japan through anime was pulling me into a different direction. Before I knew it, I was taking Japanese lessons, and with a little push from my big brother I was on a plane, on my way to <ExternalLink href="https://www.tohoku.ac.jp/en/">Tohoku University</ExternalLink> in Sendai. Ahead of me was a for a full year as an exchange student, completely new and unfamiliar environment and a completely different lifestyle. From the second I landed in Tokyo for a week of solo travelling before the semester start, I felt the nervousness turn into excitement and then into a elated sense of wonder. Only over a decade later did I start to understand myself enough to see the pattern: I thrive when exploring unfamiliar terrain and facing the unknown.
                 </p>
@@ -140,7 +140,7 @@ export default function History() {
 
             <section>
                 <h2>Freelancing over the years</h2>
-                <h4>During spare time all the way from 1999 until about 2017</h4>
+                <h4>During spare time all the way from 1999 until about 2017 (and still sometimes)</h4>
                 <p>
                     Ever since I built my first website at the end of 90&apos;s, I have done various freelance projects to build websites and other web-based systems aside my day job, university studies or school responsibilities. Some of the systems have been for paying clients, others for various personal projects, but all of them have helped me learn more about web development.
                 </p>
