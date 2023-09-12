@@ -260,7 +260,7 @@ export default function History() {
                     While working at Condatis, I was very vocal about the issues I saw in the processes and ways of working, same way as I was at Codify. I had several discussions with the company leadership where I would give earnest feedback (about the system, never about individuals) and highlight what I thought were the painpoints that held back myself and the team from delivering better results. Whether the issues were engineering-related or stemmed from business priorities, I felt the need to bring them up to drive positive change.
                 </p>
                 <p>
-                    [Move from Condatis to IW]
+                    Although the technology we worked with at Condatis was exciting, I started to yearn for an environment where the organisation structure and the ways of working were continuously improved and that strived for the best possible ways of solving problems and creating solutions. Having followed the likes of <ExternalLink href="https://martinfowler.com/">Martin Fowler</ExternalLink> and <ExternalLink href="http://agileotter.blogspot.com/">Tim Ottinger</ExternalLink>, I wanted to be able to learn every day from people who are equally passionate about changing things for better.
                 </p>
                 <p>
                     [Leaving IW]
