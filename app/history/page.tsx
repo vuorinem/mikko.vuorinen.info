@@ -246,6 +246,9 @@ export default function History() {
                 <p>
                     [Kindle]
                 </p>
+                <p>
+                    [Setting up preview versions]
+                </p>
             </section>
 
             <section>
