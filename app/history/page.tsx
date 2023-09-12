@@ -250,7 +250,7 @@ export default function History() {
 
             <section>
                 <h2>Focusing on IAM in the Scottich capital</h2>
-                <h4>The Edinburgh time from 2019 to 2023</h4>
+                <h4>The Edinburgh time from 2019 to 2022</h4>
                 <div className={styles.borderedImage}>
                     <Image
                         src={edinburghImage}
@@ -281,6 +281,10 @@ export default function History() {
                 <p>
                     While working at Condatis, I was very vocal about the issues I saw in the processes and ways of working, same way as I was at Codify. I had several discussions with the company leadership where I would give earnest feedback (about the system, never about individuals) and highlight what I thought were the painpoints that held back myself and the team from delivering better results. Whether the issues were engineering-related or stemmed from business priorities, I felt the need to bring them up to drive positive change.
                 </p>
+            </section>
+            <section>
+                <h2>The end of the expat</h2>
+                <h4>The final years of living in the UK from 2022 to 2023</h4>
                 <p>
                     Although the technology we worked with at Condatis was exciting, I started to yearn for an environment where the organisation structure and the ways of working were continuously improved and that strived for the best possible ways of solving problems and creating solutions. Having followed the likes of <ExternalLink href="https://martinfowler.com/">Martin Fowler</ExternalLink> and <ExternalLink href="http://agileotter.blogspot.com/">Tim Ottinger</ExternalLink>, I wanted to be able to learn every day from people who are equally passionate about changing things for better. Therefore, after nearly three years at Condatis, I started to look for other opportunities. Sooner than I realised, I had gotten swept up in an interview process for a quickly growing software consultancy <ExternalLink href="https://www.infinityworks.com/">Infinity Works</ExternalLink>. Reading about their <ExternalLink href="https://handbook.infinityworks.com/consultancy/default-delivery-process/approach">delivery approach</ExternalLink> and engineering culture in general got me convinced that it was a role worth pursuing. And in summer 2022, I started the job as a <b>Senior Consultant</b> at Infinity Works.
                 </p>
