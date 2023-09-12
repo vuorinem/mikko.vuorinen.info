@@ -235,6 +235,20 @@ export default function History() {
             </section>
 
             <section>
+                <h2>Academia strikes back: Freelancing to support a research project</h2>
+                <h4>Various projects between 2018 and 2023</h4>
+                <p>
+                    [Intro]
+                </p>
+                <p>
+                    [Reader]
+                </p>
+                <p>
+                    [Kindle]
+                </p>
+            </section>
+
+            <section>
                 <h2>Focusing on IAM in the Scottich capital</h2>
                 <h4>The Edinburgh time from 2019 to 2023</h4>
                 <div className={styles.borderedImage}>
