@@ -238,16 +238,37 @@ export default function History() {
                 <h2>Academia strikes back: Freelancing to support a research project</h2>
                 <h4>Various projects between 2018 and 2023</h4>
                 <p>
-                    [Intro]
+                    While working at Codify, I started a side project supporting my partner&apos;s research at the University of Aberdeen. The aim was to create a web application for reading, similar to Overdrive and Kindle Cloud Reader, with additional features for collecting behavioral data for the research. The data would be use in addition to questionnaires to study reading behaviour of the participants. It was developed collaboratively to ensure that both the research aspect and software engineering aspect were sufficiently taken into account.
+                </p>
+            </section>
+            <section className={styles.caseStudy}>
+                <h3>Case study: e-reader application</h3>
+                <p>
+                    The e-reader project started with a need to create an online reader application for academic course materials, so that various behavioural data could be collected while students were engaged in reading the course texts. The application had to run on a browser on both desktop and mobile devices, and it had to include functions to highlight and annotate the texts.
                 </p>
                 <p>
-                    [Reader]
+                    The first version of the reader was used in a study where university students read materials assigned to them as part of course work. The second version had a selection of short stories, and participants were assigned one of them to read. The third and final version had a library of 15 full books available, and participants could freely select the one they wanted to read. The latter two were used in an interdisciplinary PhD project where the data was analyzed using advanced data modelling techniques due to the large amount of data collected.
                 </p>
                 <p>
-                    [Kindle]
+                    At the time I was most familiar with <b>Aurelia</b>, so I chose it as the framework for the client-side application which was deployed to <b>Vercel</b>. The back-end was a <b>.NET Core Web API</b> deployed to <b>Azure</b> with connections to a <b>MSSQL</b> database as well as <b>KeyVault</b> for storing sensitive configuration and encryption keys and <b>SendGrid</b> for sending emails.
                 </p>
                 <p>
-                    [Setting up preview versions]
+                    Tracking the reading behaviour happened on client-side, so more detailed events and additional context about each event could be tracked, including for example currently visible section of the text, screen size and the type of input used (keyboard, mouse, touch). Initially the events were immediately sent over to the API via a HTTP request. For the later versions, tracking was improved by using primarily a <b>SignalR</b> WebSocket channel to send the events from the client to the server, with HTTP as a backup method. Local caching of events was added for two reasons: it allowed tracking to continue without interruptions if there was a temporary interruption in network connectivity, and it reduced the chattiness of the channel by combining events that occurred close to each other in one message.
+                </p>
+                <p>
+                    The development of the reader involved pilot phases for each new version. This was necessary not just for testing the reader itself, but also to ensure the study could be run smoothly and the data collected by the reader containet the necessary information for the analysis.
+                </p>
+                <p>
+                    <b>SendInBlue</b> (now <ExternalLink href="https://www.brevo.com/">Brevo</ExternalLink>)
+                </p>
+            </section>
+
+            <section>
+                <p>
+                    Related to the same PhD project, I also developed a separate application for collecting data from participants who agreed to donate their Kindle data for the research. Once the data was uploaded, the application parsed some basic details from it and automatically asked additional questions about the books that the participant had spend most time with. The application was buit with <b>Blazor WebAssembly</b> and deployed to <b>Azure</b> cloud, benefiting from services such as <b>Blob Storage</b>, <b>Table Storage</b> and <b>Key Vault</b>. Similarly to the e-reader, the development was done in collaboration with the researcher.
+                </p>
+                <p>
+                    Some time after the data collection using the applications had already completed, I set up a simplified versions of the applications to be used for demonstrating their functionality and design. The goal of these preview versions was to allow showing the application without having to set up a whole new environmet each time, while keeping the costs minimal, ideally free. For this purpose, and to allow myself to learn something new, I decided to use <b>Vercel</b> to run the front-end, and to create a stub API for the e-reader using <b>Edge Functions</b>.
                 </p>
             </section>
 
