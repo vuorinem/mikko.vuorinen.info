@@ -235,12 +235,48 @@ export default function History() {
             </section>
 
             <section>
+                <h2>Focusing on IAM in the Scottich capital</h2>
+                <h4>The Edinburgh time from 2019 to 2022</h4>
+                <div className={styles.borderedImage}>
+                    <Image
+                        src={edinburghImage}
+                        alt="Edinburgh castle pictured from the bottom of the hill" />
+                    <p>Edinburgh Castle from the south side of the Castle Hill</p>
+                </div>
+                <p>
+                    Working at Codify and the direct interaction with clients was very rewarding, but over the years I started to want something bigger, more challenging, more risk-taking. Moving away from Aberdeen to Edinburgh in 2019 worked for me as a trigger to look for a new opportunity. I spent couple of months working remotely for Codify while researching local software companies and interviewing for several interesting options. Soon I landed on <ExternalLink href="https://condatis.com/">Condatis</ExternalLink>, an identity-focused branch of <ExternalLink href="https://sitekit.co.uk/">Sitekit</ExternalLink> (later separating into its own separate corporate entity), as a senior software developer. One of the main draws of the position was an opportunity to work with some cutting-edge identity technologies. The fact that it involved blockchain was not that interesting in itself, but it showed that the company was at least portraying itself as modern and ready to take some risks.
+                </p>
+                <p>
+                    Little did I know what was waiting for all of us in 2020, when everyone had to suddenly switch to 100% remote working. Software companies were overall less disrupted by the pandemic, and Condatis was especially lucky as many of the processes were already remote-first. Still, the time spent on calls took a toll on everyone, especially on managers who may have had to spend the whole day wearing headphones and staring at a person on screen who was never quite looking to your eyes.
+                </p>
+                <p>
+                    For the first year at Condatis, the projects I worked on revolved around <b>Azure AD B2C</b>, and I spent some time learning the XML structure and syntax for configuring <ExternalLink href="https://learn.microsoft.com/en-us/azure/active-directory-b2c/custom-policy-overview">custom policies</ExternalLink> for B2C user journeys. The first system I spend a considerable amount of time involved several different custom policies created in the early days of AAD B2C before it was generally availabe. With added complexities such as a <b>Salesforce</b> integration using a proxy <b>ASP.NET Web API</b> and <b>Azure DevOps</b> pipelines that were in less than ideal state, making even small changes was either very risky, very time-consuming, or both. Together with another recently joined engineer we convinced the leadership to allow us to dedicate at least some time to make the solution as a whole a bit more robust, by explaining how we could see the benefits already during the most urgent ongoing changes.
+                </p>
+                <p>
+                    After several projects on B2C, in fall of 2020, I got an opportunity to get involved in work that Condatis was doing around fairly revolutionary idea called <b>Decentralized Identity</b> (also called <b>Self-Sovereign Identity</b>). While the company had worked with similar techonlogy previously, now it was dedicating considerable resources to become one of the leading companies in the area. In the beginning I worked on few prototypes, and started familiarising myself with the technology and its applications. As a very new technology, there were not many easy-to-digest resources available, so my main sources of learning were the draft W3C documents (now official recommendations <ExternalLink href="https://www.w3.org/TR/did-core/">Decentralised Identifiers</ExternalLink> and <ExternalLink href="https://www.w3.org/TR/vc-data-model/">Verifiable Credentials Data Model</ExternalLink>), RFCs for projects such as <ExternalLink href="https://github.com/hyperledger/aries-rfcs">Hyperledger Aries</ExternalLink>, and the examples and documentation provided by some companies that offered services utilising Decentralized Identity.
+                </p>
+                <p>
+                    Condatis started to put more and more emphasis on Decentralised Identity expertise, and as one of the most passionate developers in that area, I was keen to share my knowledge within and outside the company. I co-hosted webinars and wrote some blog posts, as much to solidify my own learning as to help others learn. In 2021 I became the <b>Lead Developer</b> in the team building Condatis&apos;s Decentralised Identity service and customizing it for clients. My role was more and more about planning how to implement new features, making sure they were undestood across the team, and helping with especially tricky parts of the implementation.
+                </p>
+                <p>
+                    As a lead developer, I was given line management responsibilities for two direct reports. The role of a line manager consisted mainly of personal support outside the day-to-day technical role and some administrative tasks. I thoroughly enjoy coaching and helping people to learn and advance in their journey as a software engineer, but I found it difficult to see how I would be the right person to offer them the people-focused support they deserve. However, I took part in the management course that was offered, and did my best to help my direct reports in my own way.
+                </p>
+                <p>
+                    I also worked on a small project where the idea was to use Microsoft&apos;s decentralized identity stack to build a proof of concept for issuing student cards, degree transcripts and training certificates. Together with people from Microsoft and the client, we planned, designed and delivered the PoC. It was exciting to work directly with Microsoft&apos;s representatives and be part of an important project to showcase their technology.
+                </p>
+                <p>
+                    While working at Condatis, I was very vocal about the issues I saw in the processes and ways of working, same way as I was at Codify. I had several discussions with the company leadership where I would give earnest feedback (about the system, never about individuals) and highlight what I thought were the painpoints that held back myself and the team from delivering better results. Whether the issues were engineering-related or stemmed from business priorities, I felt the need to bring them up to drive positive change.
+                </p>
+            </section>
+
+            <section>
                 <h2>Academia strikes back: Freelancing to support a research project</h2>
                 <h4>Various projects between 2018 and 2023</h4>
                 <p>
                     While working at Codify, I started a side project supporting my partner&apos;s research at the University of Aberdeen. This lead to a development of several applications and an interesting research collaboration, as they continued on the topic as a PhD project at the University of Edinburgh. 
                 </p>
             </section>
+
             <section className={styles.caseStudy}>
                 <h3>Case study: e-reader application</h3>
                 <p>
@@ -276,40 +312,6 @@ export default function History() {
             </section>
 
             <section>
-                <h2>Focusing on IAM in the Scottich capital</h2>
-                <h4>The Edinburgh time from 2019 to 2022</h4>
-                <div className={styles.borderedImage}>
-                    <Image
-                        src={edinburghImage}
-                        alt="Edinburgh castle pictured from the bottom of the hill" />
-                    <p>Edinburgh Castle from the south side of the Castle Hill</p>
-                </div>
-                <p>
-                    Working at Codify and the direct interaction with clients was very rewarding, but over the years I started to want something bigger, more challenging, more risk-taking. Moving away from Aberdeen to Edinburgh in 2019 worked for me as a trigger to look for a new opportunity. I spent couple of months working remotely for Codify while researching local software companies and interviewing for several interesting options. Soon I landed on <ExternalLink href="https://condatis.com/">Condatis</ExternalLink>, an identity-focused branch of <ExternalLink href="https://sitekit.co.uk/">Sitekit</ExternalLink> (later separating into its own separate corporate entity), as a senior software developer. One of the main draws of the position was an opportunity to work with some cutting-edge identity technologies. The fact that it involved blockchain was not that interesting in itself, but it showed that the company was at least portraying itself as modern and ready to take some risks.
-                </p>
-                <p>
-                    Little did I know what was waiting for all of us in 2020, when everyone had to suddenly switch to 100% remote working. Software companies were overall less disrupted by the pandemic, and Condatis was especially lucky as many of the processes were already remote-first. Still, the time spent on calls took a toll on everyone, especially on managers who may have had to spend the whole day wearing headphones and staring at a person on screen who was never quite looking to your eyes.
-                </p>
-                <p>
-                    For the first year at Condatis, the projects I worked on revolved around <b>Azure AD B2C</b>, and I spent some time learning the XML structure and syntax for configuring <ExternalLink href="https://learn.microsoft.com/en-us/azure/active-directory-b2c/custom-policy-overview">custom policies</ExternalLink> for B2C user journeys. The first system I spend a considerable amount of time involved several different custom policies created in the early days of AAD B2C before it was generally availabe. With added complexities such as a <b>Salesforce</b> integration using a proxy <b>ASP.NET Web API</b> and <b>Azure DevOps</b> pipelines that were in less than ideal state, making even small changes was either very risky, very time-consuming, or both. Together with another recently joined engineer we convinced the leadership to allow us to dedicate at least some time to make the solution as a whole a bit more robust, by explaining how we could see the benefits already during the most urgent ongoing changes.
-                </p>
-                <p>
-                    After several projects on B2C, in fall of 2020, I got an opportunity to get involved in work that Condatis was doing around fairly revolutionary idea called <b>Decentralized Identity</b> (also called <b>Self-Sovereign Identity</b>). While the company had worked with similar techonlogy previously, now it was dedicating considerable resources to become one of the leading companies in the area. In the beginning I worked on few prototypes, and started familiarising myself with the technology and its applications. As a very new technology, there were not many easy-to-digest resources available, so my main sources of learning were the draft W3C documents (now official recommendations <ExternalLink href="https://www.w3.org/TR/did-core/">Decentralised Identifiers</ExternalLink> and <ExternalLink href="https://www.w3.org/TR/vc-data-model/">Verifiable Credentials Data Model</ExternalLink>), RFCs for projects such as <ExternalLink href="https://github.com/hyperledger/aries-rfcs">Hyperledger Aries</ExternalLink>, and the examples and documentation provided by some companies that offered services utilising Decentralized Identity.
-                </p>
-                <p>
-                    Condatis started to put more and more emphasis on Decentralised Identity expertise, and as one of the most passionate developers in that area, I was keen to share my knowledge within and outside the company. I co-hosted webinars and wrote some blog posts, as much to solidify my own learning as to help others learn. In 2021 I became the <b>Lead Developer</b> in the team building Condatis&apos;s Decentralised Identity service and customizing it for clients. My role was more and more about planning how to implement new features, making sure they were undestood across the team, and helping with especially tricky parts of the implementation.
-                </p>
-                <p>
-                    As a lead developer, I was given line management responsibilities for two direct reports. The role of a line manager consisted mainly of personal support outside the day-to-day technical role and some administrative tasks. I thoroughly enjoy coaching and helping people to learn and advance in their journey as a software engineer, but I found it difficult to see how I would be the right person to offer them the people-focused support they deserve. However, I took part in the management course that was offered, and did my best to help my direct reports in my own way.
-                </p>
-                <p>
-                    I also worked on a small project where the idea was to use Microsoft&apos;s decentralized identity stack to build a proof of concept for issuing student cards, degree transcripts and training certificates. Together with people from Microsoft and the client, we planned, designed and delivered the PoC. It was exciting to work directly with Microsoft&apos;s representatives and be part of an important project to showcase their technology.
-                </p>
-                <p>
-                    While working at Condatis, I was very vocal about the issues I saw in the processes and ways of working, same way as I was at Codify. I had several discussions with the company leadership where I would give earnest feedback (about the system, never about individuals) and highlight what I thought were the painpoints that held back myself and the team from delivering better results. Whether the issues were engineering-related or stemmed from business priorities, I felt the need to bring them up to drive positive change.
-                </p>
-            </section>
-            <section>
                 <h2>The end of the expat</h2>
                 <h4>The final years of living in the UK from 2022 to 2023</h4>
                 <p>
@@ -327,7 +329,7 @@ export default function History() {
                 <h2>The next chapter</h2>
                 <h4>From fall 2013 until <code>&#123;new Date().getFullYear()&#125;</code></h4>
                 <p>
-                    The last part of my history starts when I move back to Finland, but that part is yet to be written, as it is yet to be lived. I have spent a couple of months looking into opportunities in Finland, and trying to find a company that could truly be the place where I can feel that I belong, without having to stay the version of myself that I am today. The ultimate goal I have for my career is to learn, and as long as I&apos;m learning about things that I feel passionate about, I am sure to be on the right path.
+                    The last part of my history starts when I move back to Finland, but that part is yet to be written, as it is yet to be lived. I have spent a couple of months looking into opportunities in Finland, and trying to find a company that could truly be the place where I can feel that I belong, without having to always stay the version of myself that I am today. The ultimate goal I have for my career is to learn, and as long as I&apos;m learning about things that I feel passionate about, I am sure to be on the right path.
                 </p>
             </section>
 
