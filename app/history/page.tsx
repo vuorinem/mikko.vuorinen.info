@@ -13,6 +13,8 @@ import lahjalista2013 from '../../public/history/lahjalista-2013.png'
 import lahjalista2017 from '../../public/history/lahjalista-2017.png'
 import kuvapankki from '../../public/history/kuvapankki_screenshot.png'
 import edinburghImage from '../../public/history/edinburgh_castle.jpg'
+import ereader from '../../public/history/ereader.png'
+import ereaderLanding from '../../public/history/ereader-landing.png'
 
 export default function History() {
 
@@ -282,12 +284,24 @@ export default function History() {
                 <p>
                     The e-reader project started with a need to create an online reader application for academic course materials, so that various behavioural data could be collected while students were engaged in reading the course texts. The application had to run on a browser on both desktop and mobile devices, and it had to include functions to highlight and annotate the texts, as well as a questionnaire before and after the text. Popular web readers such as Overdrive and Kindle Cloud Reader were used as benchmarks so that it would be recognizable for people who had experience reading books online. The text was displayed one page at the time and navigated by turning the page, or by jumping to a specific position using a progress bar at the bottom of the view. The amount of text visible on each page adapted to the browser window. All of these features were developed collaboratively to ensure that both the research aspect and the software engineering aspect were sufficiently taken into account.
                 </p>
+                <div className={styles.borderedImage}>
+                    <Image
+                        src={ereader}
+                        alt="E-reader view showing a section of a book in two columns" />
+                    <p>Screenshot from the e-reader website when reading a book.</p>
+                </div>
                 <p>
                     The first version of the e-reader was used in an Aberdeen University study in 2019 where students read materials assigned to them as part of course work. The texts were adapted to HTML format that could be displayed by the reader in a page-by-page. Before the main data collection phase, a pilot study was conducted with several participants. This was necessary not just for testing the reader itself, but also to ensure the study could be run smoothly and the data collected by the reader containet the necessary information for the analysis. Based on the pilot feedback and observations, some final tweaks were made to the software. In the study, overall about 50 students took part, and the results werer used in writing a Masters dissertation in Psychology.
                 </p>
                 <p>
                     After successfully applying the e-reader to conduct a study on reading academic materials, it was then modified to support a second study at the University of Edinburgh, focusing this time on <b>recreational reading</b>. This version of the reader had a selection of short stories, and participants were assigned one of them to read based on their answers in a newly added questionnaire. Other features were adapted support the new study as well, and a new pilot phase was done to ensure the quality of user experience and data collection features. The main study included 60 participants using the e-reader over two weeks. As an additional challenge, participants were compensated for completing the required parts of the study, which meant that we had to be able to track the completion while maintaining anonymity of the data collected from each participant.
                 </p>
+                <div className={styles.borderedImage}>
+                    <Image
+                        src={ereaderLanding}
+                        alt="E-reader information page with graphical step-to-step guide" />
+                    <p>E-reader landing page built for the third, large-scale study</p>
+                </div>
                 <p>
                     The third study with the e-reader was in many ways on a different scale. To attract participants, a library of <b>15 full-length books</b> was obtained by collaborating with popular authors and their publishers. Participants could freely select the book they wanted to read using a library feature, which was developed to include data collection features similar to the main reader. Another major addition was a <b>personal infographic</b> page for participants who had read enough in order for the application to generate various graphs and sum-ups on their reading process. While my role was only the implementation of the software, all the changes and new requirements were discussed and worked on collaboratively, taking into account the different context of a much larger-scale study. After completing a pilot phase, the application was available for about 11 months, and attracted over 1200 participants.
                 </p>
