@@ -15,6 +15,7 @@ import kuvapankki from '../../public/history/kuvapankki_screenshot.png'
 import edinburghImage from '../../public/history/edinburgh_castle.jpg'
 import ereader from '../../public/history/ereader.png'
 import ereaderLanding from '../../public/history/ereader-landing.png'
+import kindleStudy from '../../public/history/kindlestudy.png'
 
 export default function History() {
 
@@ -273,9 +274,9 @@ export default function History() {
 
             <section>
                 <h2>Academia strikes back: Freelancing to support a research project</h2>
-                <h4>Various projects between 2018 and 2023</h4>
+                <h4>From 2018 to 2023</h4>
                 <p>
-                    While working at Codify, I started a side project supporting my partner&apos;s research at the University of Aberdeen. This lead to a development of several applications and an interesting research collaboration, as they continued on the topic as a PhD project at the University of Edinburgh. 
+                    While working at Codify, I started a side project supporting my partner&apos;s research at the University of Aberdeen. This lead to a development of several applications and an interesting research collaboration, as they continued on the topic as a PhD project at the University of Edinburgh.
                 </p>
             </section>
 
@@ -317,6 +318,12 @@ export default function History() {
             </section>
 
             <section>
+                <div className={styles.borderedImage}>
+                    <Image
+                        src={kindleStudy}
+                        alt="Kinle study information page with a step-to-step guide" />
+                    <p>Kindle study landing page with instructions</p>
+                </div>
                 <p>
                     Related to the same PhD project, I also developed another web application. It was used for collecting data from participants who agreed to donate their Kindle reading logs for the research. Once the correct log file was uploaded, the application parsed some basic details from it and asked additional questions about the books that the participant had spend the most time with. The application was buit with <b>Blazor WebAssembly</b> and deployed to <b>Azure</b>, benefiting from services such as <b>Blob Storage</b>, <b>Table Storage</b> and <b>Key Vault</b>. Similarly to the e-reader, the development was done in collaboration with the researcher.
                 </p>
