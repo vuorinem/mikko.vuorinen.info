@@ -44,7 +44,7 @@ export default function History() {
             </section>
 
             <section>
-                <h2>The Internet and The Web - The Dream(weaver)</h2>
+                <h2>The Internet dream(weaver) awakens</h2>
                 <h4>Senior high years from 1999 to 2002</h4>
                 <div className={styles.borderedImage}>
                     <Image
@@ -60,7 +60,7 @@ export default function History() {
                 </p>
             </section>
             <section>
-                <h2>The Long University Years</h2>
+                <h2>The University years begin</h2>
                 <h4>From entering university at 2002 to about 2006</h4>
                 <p>
                     When it was time to decide what to do after graduating upper secondary school, I took the easy choice of applying to a university that was in my home city Jyväskylä. The course I selected was <b>Information Systems Science</b>, where I could continue to learn about programming, and start to build more theoretical understanding about software engineering as a whole. For the first year, I thrived in the challenging environment and took as many classes as I possibly could. My experience in programming helped me to stay on top of the practical side of the studies, and I was extremely interested in learning about the rest, especially anything about software engineering methodologies. I started learning about <b>Waterfall</b>, <ExternalLink href="https://en.wikipedia.org/wiki/Rational_unified_process">RUP</ExternalLink>, <b>UML</b> &ndash; and my new sage, <ExternalLink href="https://en.wikipedia.org/wiki/Extreme_programming">XP</ExternalLink>. While learning new languages like <b>Java</b> and <b>Delphi</b> was interesting, I found myself most fascinated by more theoretical parts such as <b>object-oriented design</b>, <b>database design</b> and <b>architecture</b>.
@@ -105,10 +105,10 @@ export default function History() {
                 </p>
             </section>
             <section>
-                <h2>Start of career</h2>
+                <h2>Start of a software professional&apos;s career</h2>
                 <h4>The time at Tampere University from 2010 to 2014</h4>
                 <p>
-                    After graduating from university, I wanted to deal with the general conscription, which is required for most men in Finland before they turn 30. As a pacifist, military service was out of question, so I applied for non-military service in <b>University of Tampere</b> (now part of Tampere University). I took part in several research projects, usually assisting the researchers in interviews, transcriptions and write-ups, but slowly drifting towards tasks where I could better apply my software knowledge. After co-authoring <ExternalLink href="https://trepo.tuni.fi/handle/10024/65716">a guide for selecting a wiki tool</ExternalLink>, I moved to a project called Opeka. The work with Opeka became the main part of my responsibilities at University of Tampere, and allowed me to move from my one year of non-military service placement into a full-time job as a software engineer.
+                    After graduating from university, I wanted to deal with the general conscription, which is required for most men in Finland before they turn 30. As a pacifist, military service was out of question for me, so I applied for non-military service in <b>University of Tampere</b> (now part of Tampere University). I took part in several research projects, usually assisting the researchers in interviews, transcriptions and write-ups, but slowly drifting towards tasks where I could better apply my software knowledge. After co-authoring <ExternalLink href="https://trepo.tuni.fi/handle/10024/65716">a guide for selecting a wiki tool</ExternalLink>, I moved to a project called Opeka. The work with Opeka became the main part of my responsibilities at University of Tampere, and allowed me to move from my one year of non-military service placement into a full-time job as a software engineer.
                 </p>
             </section>
             <section className={styles.caseStudy}>
@@ -142,7 +142,7 @@ export default function History() {
             </section>
 
             <section>
-                <h2>Freelancing over the years</h2>
+                <h2>Early career freelancing and personal projects</h2>
                 <h4>During spare time all the way from 1999 until about 2017 (and still sometimes)</h4>
                 <p>
                     Ever since I built my first website at the end of 90&apos;s, I have done various freelance projects to build websites and other web-based systems aside my day job, university studies or school responsibilities. Some of the systems have been for paying clients, others for various personal projects, but all of them have helped me to learn more about web development.
@@ -202,8 +202,8 @@ export default function History() {
             </section>
 
             <section>
-                <h2>Changing the scenery - Move abroad</h2>
-                <h4>From the move to Leicester in 2013, to Aberdeen in 2014, all the way to summer 2019</h4>
+                <h2>Changing the scenery - Moving abroad</h2>
+                <h4>From the move to Leicester in 2013, to Aberdeen in 2014, all the way to the summer 2019</h4>
                 <p>
                     In the fall of 2013, life started pulling me to a very different direction as I moved &quot;temporarily&quot; to the UK. For some time, I continued working remotely for University of Tampere, but by the following summer the visit to UK started to look less and less temporary. That lead to me looking for work in Aberdeen, Scotland. With my lucky choice of career, finding a job even in a foreign country was not a major challenge, and I ended up landing a <b>Software Engineer</b> role at <b>Codify</b> (now <ExternalLink href="https://www.sword-codify.com/">Sword Codify</ExternalLink>).
                 </p>
@@ -328,7 +328,7 @@ export default function History() {
                     Related to the same PhD project, I also developed another web application. It was used for collecting data from participants who agreed to donate their Kindle reading logs for the research. Once the correct log file was uploaded, the application parsed some basic details from it and asked additional questions about the books that the participant had spend the most time with. The application was buit with <b>Blazor WebAssembly</b> and deployed to <b>Azure</b>, benefiting from services such as <b>Blob Storage</b>, <b>Table Storage</b> and <b>Key Vault</b>. Similarly to the e-reader, the development was done in collaboration with the researcher.
                 </p>
                 <p>
-                    After the data collection for the projects had completed and the applications were no longer used, I set up simplified versions to be used for demonstrating their functionality and design. The goal of these preview versions was to allow showing the application without having to set up a whole new environmet each time, while keeping the running costs minimal, ideally free. I decided to use <b>Vercel</b> to run the front-end, and to allow myself to learn something new, I created a stub API for the e-reader using <b>Edge Functions</b>.
+                    After the data collection for the projects had completed and the applications were no longer used, I set up simplified versions to be used for demonstrating their functionality and design. The goal of these preview versions was to allow showing the application without having to set up a whole new environmet each time, while keeping the running costs minimal, ideally free. I decided to use <b>Vercel</b> to run the front-end. I created a stub API for the e-reader using <b>Edge Functions</b> to allow myself to learn something new along the way.
                 </p>
             </section>
 
