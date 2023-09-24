@@ -12,6 +12,7 @@ import lahjalista2010 from '../../public/history/lahjalista-2010.png'
 import lahjalista2013 from '../../public/history/lahjalista-2013.png'
 import lahjalista2017 from '../../public/history/lahjalista-2017.png'
 import kuvapankki from '../../public/history/kuvapankki_screenshot.png'
+import itk from '../../public/history/itk.png'
 import edinburghImage from '../../public/history/edinburgh_castle.jpg'
 import ereader from '../../public/history/ereader.png'
 import ereaderLanding from '../../public/history/ereader-landing.png'
@@ -199,8 +200,14 @@ export default function History() {
                 <p>
                     The kuvapankki.org project led to a number of smaller projects, as some of the photographers that were part of it asked me to help with their personal websites and online portfolios. These were small but interesting projects as the focus was quite different from what I was used to: instead of focusing on user experience and conveying information efficiently, photographer portfolios were intended to represent the <b>individual characteristics</b> and style of the photographer as accurately as possible. I set aside my idea of a &quot;proper&quot; website and worked on them in a very client-led way. Although I think there was nothing wrong with that approach at the time, nowadays I would probably make more effort to apply good practices from my field and dive deeper to understand the essence of what the client wants.
                 </p>
+                <div className={styles.borderedImage}>
+                    <Image
+                        src={itk}
+                        alt="Screenshot from itk.fi website in 2016" />
+                    <p>ITK conference website front page in 2016</p>
+                </div>
                 <p>
-                    Another bogger freelance project was the website of <b>ITK conference</b>, which is a yearly conference in Finland with over a thousand participants and hundreds of submissions to the Call For Papers (CFP). I first worked on the online conference programme as part of my job at University of Tampere, but later built a more comprehensice conference management system that included receiving CFP submissions, managing their peer review and approval process, planning and building the conference programme and an attendee tool for building a personalized conference schedule. The system was built together with the conference organizers, and was a key part in managing the conference six times between 2012 and 2017.
+                    Another larger freelance project was the web system for <b>ITK conference</b>, which is a yearly conference in Finland with over a thousand participants and hundreds of submissions to the Call For Papers (CFP). I first worked on the online conference programme as part of my job at University of Tampere, but later built a more comprehensice conference management system that included receiving CFP submissions, managing their peer review and approval process, planning and building the conference programme and an attendee tool for building a personalized conference schedule. The system was built together with the conference organizers, and was a key part in managing the conference between 2012 and 2017.
                 </p>
             </section>
 
