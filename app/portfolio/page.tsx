@@ -46,7 +46,7 @@ export default function Portfolio() {
 
     return (
         <>
-            <h1>Projects</h1>
+            <h1>Portfolio</h1>
 
             <h2>Ongoing personal projects</h2>
             <p>
