@@ -19,6 +19,8 @@ export default function Home() {
 
       <ul className={styles.links}>
         <li>▸ See <Link href="/portfolio">my portfolio</Link> to get an idea what kind of projects I have done</li>
+        <li>▸ Read the <Link href="/history">history</Link> to learn about my career so far</li>
+        <li>▸ Take a look at the case studies <Link href="/history#casestudy-opeka">Opeka</Link>, <Link href="/history#casestudy-lahjalista">Lahjalista.net</Link>, <Link href="/history#casestudy-riskmanagement">a risk management application</Link> or <Link href="/history#casestudy-ereader">E-reader</Link></li>
         <li>▸ For my work experience and education, head to <ExternalLink href="https://www.linkedin.com/in/mikkovuorinen/">my LinkedIn page</ExternalLink></li>
         <li>▸ Read some of my tech blog posts at <ExternalLink href="https://medium.com/@mikko.vuorinen">Medium</ExternalLink></li>
       </ul>

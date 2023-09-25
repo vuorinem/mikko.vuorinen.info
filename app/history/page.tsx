@@ -112,7 +112,7 @@ export default function History() {
                     After graduating from university, I wanted to deal with the general conscription, which is required for most men in Finland before they turn 30. As a pacifist, military service was out of question for me, so I applied for non-military service in <b>University of Tampere</b> (now part of Tampere University). I took part in several research projects, usually assisting the researchers in interviews, transcriptions and write-ups, but slowly drifting towards tasks where I could better apply my software knowledge. After co-authoring <ExternalLink href="https://trepo.tuni.fi/handle/10024/65716">a guide for selecting a wiki tool</ExternalLink>, I moved to a project called Opeka. The work with Opeka became the main part of my responsibilities at University of Tampere, and allowed me to move from my one year of non-military service placement into a full-time job as a software engineer.
                 </p>
             </section>
-            <section className={styles.caseStudy}>
+            <section id="casestudy-opeka" className={styles.caseStudy}>
                 <h3>Case study: Opeka</h3>
                 <p>
                     <b>Opeka</b> is a tool to gather data from school teachers about how they use information technology (see <ExternalLink href="https://opeka.fi/en/presentation/index">What is Opeka?</ExternalLink>). With a project researcher who focused on the research questions and the analysis of the data, my role was to be the software expert in the team, taking care of the <b>technical design and implementation</b> of the system. But with mostly just the two of us in the team, it was very much a collaborative effort in all parts. We worked in a very <b>iterative</b> way, going through multiple versions where the contents and functionality was improved and increased in each iteration, as well as the number of respondents and the project scale overall. We conducted <b>pilot study</b> to test the <b>usability</b> of the system and to refine the question set before releasing the first public version to selected schools.
@@ -153,7 +153,7 @@ export default function History() {
                 </p>
             </section>
 
-            <section className={styles.caseStudy}>
+            <section id="casestudy-lahjalista" className={styles.caseStudy}>
                 <h3>Case study: Lahjalista.net</h3>
                 <p>
                     When all the three of my older siblings started to have their own children, planning the gift-giving for our family Christmas gathering became quite a challenge. Most of us had specific things we wanted, instead of receiving something that would end up unused. And everyone wanted to give something useful, but avoid buing the same gift as someone else. These challenges gave birth to an idea for an <b>online wishlist service</b>. For the christmas 2005 I built a website where we could list what each of us wanted for christmas. Anyone could then go and reserve the wish, preventing others from buying the same gift. Next year, I spent a lot of time improving it, working with my brother to define a service that could be useful for people outside our familiy as well. We ended up with <b>Lahjalista.net</b>, a web service where anyone could create a wishlist and share a link to it.
@@ -225,7 +225,7 @@ export default function History() {
                 </p>
             </section>
 
-            <section className={styles.caseStudy}>
+            <section id="casestudy-riskmanagement" className={styles.caseStudy}>
                 <h3>Case study: Risk management application</h3>
                 <p>
                     A new client approached Codify with a plan for an application to support companies&apos; risk management process. The idea was to create a simple application with a strong focus on user-friendliness, allowing companies to use it without external support or specialized training, while providing numerous advantages over spreadsheet-based risk tracking. As the main developer on the project, I had regular in-depth discussions with the client from the very beginning, working to understand the problem space better and to come up with solutions <b>collaboratively</b>.
@@ -290,7 +290,7 @@ export default function History() {
                 </p>
             </section>
 
-            <section className={styles.caseStudy}>
+            <section id="casestudy-ereader" className={styles.caseStudy}>
                 <h3>Case study: e-reader application</h3>
                 <p>
                     The e-reader project started with a need to create an online reader application for academic course materials, so that various behavioural data could be collected while students were engaged in reading the course texts. The application had to run on a browser on both desktop and mobile devices, and it had to include functions to highlight and annotate the texts, as well as a questionnaire before and after the text. Popular web readers such as Overdrive and Kindle Cloud Reader were used as benchmarks so that it would be recognizable for people who had experience reading books online. The text was displayed one page at the time and navigated by turning the page, or by jumping to a specific position using a progress bar at the bottom of the view. The amount of text visible on each page adapted to the browser window. All of these features were developed collaboratively to ensure that both the research aspect and the software engineering aspect were sufficiently taken into account.
