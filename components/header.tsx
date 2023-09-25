@@ -1,7 +1,7 @@
 'use client'
 
 import Link from "next/link"
-import { useSelectedLayoutSegment } from "next/navigation";
+import { useSelectedLayoutSegment, usePathname } from "next/navigation";
 import { Waiting_for_the_Sunrise } from "next/font/google";
 
 import styles from './header.module.css'
@@ -13,6 +13,9 @@ const headerFont = Waiting_for_the_Sunrise({
 
 export default function Header() {
     const segmentClass = useSelectedLayoutSegment() ?? 'home';
+    const currentPath = usePathname();
+
+    const linkClass = (path: string) => path == currentPath ? styles.active : styles.inactive;
     
     return (
         <>
@@ -23,8 +26,9 @@ export default function Header() {
                 </Link>
             </h1>
             <div className={styles.headerLinks}>
-                <Link href="/history">History</Link>
-                <Link href="/portfolio">Portfolio</Link>
+                <Link href="/" className={linkClass('/')}>Home</Link>
+                <Link href="/history" className={linkClass('/history')}>History</Link>
+                <Link href="/portfolio" className={linkClass('/portfolio')}>Portfolio</Link>
             </div>
         </>
     );
