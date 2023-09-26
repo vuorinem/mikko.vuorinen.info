@@ -25,7 +25,7 @@ export default function NarrativeCV() {
             <h1>Narrative CV</h1>
             <section className={styles.intro}>
                 <p>
-                    This is the history of me, in the context of software engineering. My goal is to give you a complete picture of my experience and where it is rooted. I also hope to convey my values as a software professional, which stem from and are guided by my values as an individual. [FB: Rethink this after completing content]
+                    This is my <em>curriculum vitae</em> &ndash; in other words, the course of my life &ndash; in a narrative format. I have written it to put my experience into context, showing where it is rooted and how I have grown from it. While we may have same skills, everyone&apos;s story is different, and I believe that is what they should be valued for as professionals.
                 </p>
             </section>
 
