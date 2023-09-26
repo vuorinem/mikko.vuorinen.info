@@ -4,30 +4,26 @@ import ExternalLink from "@/components/external-link"
 
 import styles from './page.module.css'
 
-import amigaImage from '../../public/history/amiga.jpg'
-import cardealerImage from '../../public/history/cardealer_screenshot.png'
-import jklautoImage from '../../public/history/jklautotarvike_screenshot.png'
-import opekaImage from '../../public/history/opeka_report_screenshot.png'
-import lahjalista2010 from '../../public/history/lahjalista-2010.png'
-import lahjalista2013 from '../../public/history/lahjalista-2013.png'
-import lahjalista2017 from '../../public/history/lahjalista-2017.png'
-import kuvapankki from '../../public/history/kuvapankki_screenshot.png'
-import itk from '../../public/history/itk.png'
-import edinburghImage from '../../public/history/edinburgh_castle.jpg'
-import ereader from '../../public/history/ereader.png'
-import ereaderLanding from '../../public/history/ereader-landing.png'
-import kindleStudy from '../../public/history/kindlestudy.png'
+import amigaImage from '../../public/narrative-cv/amiga.jpg'
+import cardealerImage from '../../public/narrative-cv/cardealer_screenshot.png'
+import jklautoImage from '../../public/narrative-cv/jklautotarvike_screenshot.png'
+import opekaImage from '../../public/narrative-cv/opeka_report_screenshot.png'
+import lahjalista2010 from '../../public/narrative-cv/lahjalista-2010.png'
+import lahjalista2013 from '../../public/narrative-cv/lahjalista-2013.png'
+import lahjalista2017 from '../../public/narrative-cv/lahjalista-2017.png'
+import kuvapankki from '../../public/narrative-cv/kuvapankki_screenshot.png'
+import itk from '../../public/narrative-cv/itk.png'
+import edinburghImage from '../../public/narrative-cv/edinburgh_castle.jpg'
+import ereader from '../../public/narrative-cv/ereader.png'
+import ereaderLanding from '../../public/narrative-cv/ereader-landing.png'
+import kindleStudy from '../../public/narrative-cv/kindlestudy.png'
 
-export default function History() {
+export default function NarrativeCV() {
 
     return (
-        <div className={styles.history}>
-            <h1>History</h1>
+        <div className={styles.narrativeCv}>
+            <h1>Narrative CV</h1>
             <section className={styles.intro}>
-                <Image
-                    className={styles.borderedImage}
-                    src={amigaImage}
-                    alt="Old Amiga computer" />
                 <p>
                     This is the history of me, in the context of software engineering. My goal is to give you a complete picture of my experience and where it is rooted. I also hope to convey my values as a software professional, which stem from and are guided by my values as an individual. [FB: Rethink this after completing content]
                 </p>
@@ -36,6 +32,11 @@ export default function History() {
             <section>
                 <h2>Gaming as a gateway to coding</h2>
                 <h4>From the very beginning, years &#9608;&#9608;&#9608;&#9608; to 1999</h4>
+                <div className={styles.borderedImage}>
+                    <Image
+                        src={amigaImage}
+                        alt="An old Amiga computer" />
+                </div>
                 <p>
                     My first experience with a personal computer was some years before entering school. Unlike a lot of people of my age, it was not with the famous Commodore 64, but a more forgettable PC of some kind, possibly an Amiga. My computer literacy as a pre-schooler was limited to typing a few memorised commands to its UI <ExternalLink href="https://en.wikipedia.org/wiki/MS-DOS">MS DOS</ExternalLink>, most often in order to run <ExternalLink href="https://en.wikipedia.org/wiki/Bubble_Bobble">Bubble Bobble</ExternalLink>. I played the game incessantly, so at some point my big brother blocked me from playing the game by renaming its executable. When I finally got him to tell me the &quot;password&quot; to start the game, I wrote it down to a note, never to be forgotten. And indeed, still today I remember that <code>aefthukn</code> is the command to start Bubble Bobble.
                 </p>
