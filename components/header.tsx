@@ -27,7 +27,7 @@ export default function Header() {
             </h1>
             <div className={styles.headerLinks}>
                 <Link href="/" className={linkClass('/')}>Home</Link>
-                <Link href="/history" className={linkClass('/history')}>History</Link>
+                <Link href="/narrative-cv" className={linkClass('/narrative-cv')}>Narrative CV</Link>
                 <Link href="/portfolio" className={linkClass('/portfolio')}>Portfolio</Link>
             </div>
         </>

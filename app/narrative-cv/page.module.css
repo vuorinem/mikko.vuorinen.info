@@ -1,4 +1,4 @@
-.history h4 {
+.narrativeCv h4 {
     color: var(--muted-text-color);
 }
 
@@ -58,7 +58,7 @@
 }
 
 @media (min-width: 450px) {
-    .history p {
+    .narrativeCv p {
         text-align: justify;
     }
 
