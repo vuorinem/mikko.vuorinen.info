@@ -4,7 +4,7 @@ import ExternalLink from "@/components/external-link"
 
 import styles from './page.module.css'
 
-import amigaImage from '../../public/narrative-cv/amiga.jpg'
+import amigaImage from '../../public/narrative-cv/amiga.png'
 import cardealerImage from '../../public/narrative-cv/cardealer_screenshot.png'
 import jklautoImage from '../../public/narrative-cv/jklautotarvike_screenshot.png'
 import opekaImage from '../../public/narrative-cv/opeka_report_screenshot.png'
