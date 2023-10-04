@@ -16,6 +16,7 @@ import itk from '../../public/narrative-cv/itk.png'
 import edinburghImage from '../../public/narrative-cv/edinburgh_castle.jpg'
 import ereader from '../../public/narrative-cv/ereader.png'
 import ereaderLanding from '../../public/narrative-cv/ereader-landing.png'
+import ereaderInfographic from '../../public/narrative-cv/ereader-infographic.png'
 import kindleStudy from '../../public/narrative-cv/kindlestudy.png'
 
 export default function NarrativeCV() {
@@ -313,6 +314,12 @@ export default function NarrativeCV() {
                         src={ereaderLanding}
                         alt="E-reader information page with graphical step-to-step guide" />
                     <p>E-reader landing page built for the third, large-scale study</p>
+                </div>
+                <div className={styles.borderedImage}>
+                    <Image
+                        src={ereaderInfographic}
+                        alt="Screenshot from Reading Behaviour Infographic with various graphs and numbers" />
+                    <p>Participant&apos;s personal infographic page from the e-reader.</p>
                 </div>
                 <p>
                     The third study with the e-reader was in many ways on a different scale. A new version of the software carrying the name <b>Sirus Reader</b> was developed for the study over several months. To attract participants, a library of <b>15 full-length books</b> was obtained by collaborating with popular authors and their publishers. This lead to some changes in the reader to allow loading only necessary parts of the book at a time and to scramble the book contents in transfer, making it more difficult to copy a full contents of a book. Participants could freely select the book they wanted to read using a new library feature, which was developed to include data collection features similar to the main reader. Another major addition was a <b>personal infographic</b> page for participants who had read at least 70 pages of the book, displaying various graphs and sum-ups on their reading process. While my role was only the implementation of the software, all the changes and new requirements were discussed and worked on collaboratively, taking into account the different context of a much larger-scale study. After completing a pilot phase and making the required modifications, the study was publicly available for about 11 months between 2021 and 2022, and attracted over <b>1200 participants</b>.
