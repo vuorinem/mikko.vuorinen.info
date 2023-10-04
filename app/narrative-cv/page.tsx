@@ -368,6 +368,9 @@ export default function NarrativeCV() {
                 <h2>The next chapter</h2>
                 <h4>From fall 2013 until <code>&#123;new Date().getFullYear()&#125;</code></h4>
                 <p>
+                    Ever since I came across <ExternalLink href="https://futurice.com/lean-service-creation">Lean Service Creation</ExternalLink> from Futurice, I have felt a pull towards Finnish companies that are in the forefront of modern software building practices. Many companies of various sizes in Finland seem to have a strong focus on sustainability in all of its aspects, from employee well-being to software maintainability to environmental sustainability, without letting it all dwindle in search for maximizing profits. Feeling that I want to be part of it and see the reality of it myself, I am ready to come back after spending a decade abroad.
+                </p>
+                <p>
                     The last part of my history starts when I move back to Finland, but that part is yet to be written, as it is yet to be lived. I have spent a couple of months looking into opportunities in Finland, trying to find a company that could truly be the place where I can feel that I belong, and where I can change and grow every day. The ultimate goal I have for my career is to learn, and as long as I&apos;m learning about things that I feel passionate about, I am sure to be on the right path.
                 </p>
             </section>
