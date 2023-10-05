@@ -50,7 +50,7 @@ export default function Portfolio() {
 
             <h2>Ongoing personal projects</h2>
             <p>
-                Currently active (some more than otheres) projects outside of my day job.
+                Currently active (some more than others) projects outside of my day job.
             </p>
             <div className={styles.projects}>
                 {GetProjectsList(projectCollection.ongoing)}
