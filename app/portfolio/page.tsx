@@ -49,7 +49,7 @@ export default function Portfolio() {
         <>
             <h1>Portfolio</h1>
             <p>
-                This portfolio shows a list of various things I have built or been part of building over the years. If you are looking for my CV, please check out <ExternalLink href="https://www.linkedin.com/in/mikkovuorinen/">my LinkedIn page</ExternalLink> or skim through the <Link href="/narrative-cv">narrative CV</Link>.
+                This portfolio shows a list of various things I have built or been part of building over the years. If you are looking for my CV, please check out <ExternalLink href="https://www.linkedin.com/in/mikkovuorinen/">my LinkedIn page</ExternalLink> or skim through the <Link href="/narrative-cv">narrative CV</Link>. To get in touch, you can use LinkedIn messages or <ExternalLink href="https://mastodon.online/@mvuorinen">Mastodon</ExternalLink>.
             </p>
 
             <h2>Ongoing personal projects</h2>
