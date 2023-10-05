@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 import { Project } from "@/data/portfolio/Project"
 import projectCollection from "@/data/portfolio/projects.json"
@@ -47,6 +48,9 @@ export default function Portfolio() {
     return (
         <>
             <h1>Portfolio</h1>
+            <p>
+                This portfolio shows a list of various things I have built or been part of building over the years. If you are looking for my CV, please check out <ExternalLink href="https://www.linkedin.com/in/mikkovuorinen/">my LinkedIn page</ExternalLink> or skim through the <Link href="/narrative-cv">narrative CV</Link>.
+            </p>
 
             <h2>Ongoing personal projects</h2>
             <p>
