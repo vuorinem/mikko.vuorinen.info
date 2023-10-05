@@ -37,6 +37,10 @@ export default function Home() {
         any instrument, listening to music is a key element to set the mood for anything
         I do. I hope to create and play more music in the future.
       </p>
+
+      <p className={styles.description}>
+        I like cats.
+      </p>
     </div>
   )
 }
