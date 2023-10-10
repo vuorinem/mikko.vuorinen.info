@@ -751,6 +751,21 @@
             ]
         },
         {
+            "name": "aurelia-adb2c",
+            "image": "aurelia-adb2c.png",
+            "imageDescription": "Aurelia - Auth - Microsoft Azure",
+            "title": "Aurelia and Azure AD B2C Authentication",
+            "link": "https://medium.com/@mikko.vuorinen/aurelia-and-azure-ad-b2c-authentication-351fbe2de348",
+            "text": "A tutorial for setting up AD B2C for Aurelia",
+            "start": "2017",
+            "tech": [
+                "Writing",
+                "Aurelia",
+                "Azure AD B2C",
+                "TypeScript"
+            ]
+        },
+        {
             "name": "wikiakayttamaan",
             "image": "wikiakayttamaan.png",
             "imageDescription": "Screenshot from Wikiä käyttämään!",
