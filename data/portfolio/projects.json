@@ -150,6 +150,25 @@
             ]
         },
         {
+            "name": "riskmanagement",
+            "image": "placeholder.png",
+            "imageDescription": "Placeholder image",
+            "title": "Risk management application",
+            "casestudy": "riskmanagement",
+            "text": "Web application with a dashboard for managing project risks",
+            "start": "2017",
+            "end": "2018",
+            "tech": [
+                "C#",
+                ".NET",
+                "ASP.NET",
+                "TypeScript",
+                "Aurelia",
+                "Azure",
+                "REST"
+            ]
+        },
+        {
             "name": "trainingmanagement",
             "image": "placeholder.png",
             "imageDescription": "Placeholder image",
