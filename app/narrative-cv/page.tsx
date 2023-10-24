@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import { FaChevronUp } from "react-icons/fa"
 
 import ExternalLink from "@/components/external-link"
 
@@ -21,11 +22,16 @@ import ereaderInfographic from '../../public/narrative-cv/ereader-infographic.pn
 import kindleStudy from '../../public/narrative-cv/kindlestudy.png'
 
 export default function NarrativeCV() {
+    const linkToIntro = (
+        <p className={styles.linkToIntro}>
+            <Link href="#section-intro"><FaChevronUp size="0.5rem" /> Jump back to the top <FaChevronUp size="0.5rem" /></Link>
+        </p>
+    );
 
     return (
         <div className={styles.narrativeCv}>
             <h1>Narrative CV</h1>
-            <section className={styles.intro}>
+            <section id="section-intro" className={styles.intro}>
                 <p>
                     This is my <em>curriculum vitae</em> &ndash; in other words, the course of my life &ndash; in a narrative format. I have written it to put my experience into context, showing where it is rooted and how I have grown from it. While we may have same skills, everyone&apos;s story is different, and I believe that is what we should be valued for as professionals.
                 </p>
@@ -81,6 +87,7 @@ export default function NarrativeCV() {
                 <p>
                     Games became a major influence for me, and sparked my interest in coding. After making a racing game using <ExternalLink href="https://en.wikipedia.org/wiki/Visual_Basic_(classic)">Visual Basic</ExternalLink> with my cousin (in which you could make buttons move by clicking them), I spent some time learning <b>BASIC</b> in order to code a maze game with a friend in primary school. While the friend &mdash; a year older to me &mdash; went on building an impressive drawing program in BASIC, I mostly played with Visual Basic. At high school I decided to ask my parents to help me buy <ExternalLink href="https://en.wikipedia.org/wiki/Visual_Studio">Visual Studio 6.0</ExternalLink> and a book <em>C++ ja olio-ohjelmointi</em> (&quot;C++ and object-oriented programming&quot;) in order to get into more serious game programming. While the former became just one of many tools I was getting familiar with, the latter built a solid base for my programming skills and a strong opinion about the superiority of <b>object-oriented paradigm</b> (to be later replaced with a all-encompassing advice &quot;it depends&quot;).
                 </p>
+                {linkToIntro}
             </section>
 
             <section id="section-internet">
@@ -98,6 +105,7 @@ export default function NarrativeCV() {
                 <p>
                     In the following years I started working occasionally for my father&apos;s company, providing technical support and doing small coding tasks for his clients such as the car dealer above. For example, combining my experience with VB and the web, I used <ExternalLink href="https://en.wikipedia.org/wiki/Visual_Basic_for_Applications">VBA</ExternalLink> to automate data retrieval processes between Excel spreadsheets and external systems. It was probably the first times for me to build any kind of system integration. There is a certain excitement in making two systems talk to each other that is unique, I wonder if it has something to do with making existing systems work together to do more than what they were built to do. As I soon learned, integrating systems also has its unique challenges, which I have continued to learn about throughout my career.
                 </p>
+                {linkToIntro}
             </section>
             <section id="section-university">
                 <h2>The University years begin</h2>
@@ -108,6 +116,7 @@ export default function NarrativeCV() {
                 <p>
                     In the second year, however, I started to wonder if the road I had chosen would take me to my goal, which was still to be a game programmer. The university course was heavy on theory and didn&apos;t have many classes specifically for building games. When my cousin with similar goals was applying to university and chose one in Tampere that was more suitable for game programming career, I decided to apply as well. We ended up starting our course in <b>Tampere University of Technology</b> (now part of <ExternalLink href="https://www.tuni.fi/en">Tampere University</ExternalLink>) at the same time in 2004. But during my studies there, I ended up leaning more towards methodologies and architecture instead of game-specific classes, and found topics like computer graphics challenging and not as interesting as I had anticipated. By the time we had to choose our major, I had come to a conclusion that game programming was not for me. I loved playing games more than ever, and I did contribute some code to game projects that my cousin was working on, but I had found my passion elsewhere.
                 </p>
+                {linkToIntro}
             </section>
             <section id="section-web">
                 <h2>Growing into a web developer</h2>
@@ -127,6 +136,7 @@ export default function NarrativeCV() {
                 <p>
                     At a later stage of my university studies, it became clear that I wanted to dedicate most of my time to work with the internet and online systems of some sort. I chose <b>hypermedia</b> as my major, as I was interested in the theoretical aspects of modelling networks of data as well as the applied aspect of implementing systems using hypermedia tools. I might not use <ExternalLink href="https://en.wikipedia.org/wiki/Resource_Description_Framework">RDF</ExternalLink> or <ExternalLink href="https://en.wikipedia.org/wiki/Web_Ontology_Language">OWL</ExternalLink> much nowadays, but they were an important part in building my understanding about <b>semantic data</b> and <b>markup languages</b>, as well as the <ExternalLink href="https://en.wikipedia.org/wiki/World_Wide_Web_Consortium">W3C</ExternalLink> and various standartization processes of web technologies.
                 </p>
+                {linkToIntro}
             </section>
             <section id="section-adult">
                 <h2>Growing into an adult human</h2>
@@ -143,6 +153,7 @@ export default function NarrativeCV() {
                 <p>
                     After returning to Finland, the remainder of my university time consisted mostly of bigger group projects and the MSc Thesis. The group work gave me a glimpse into working on an actual project with a set goal and a team to achieve that goal, whereas the thesis required an academic approach with the associated background research and a rigorous writing process. I decided to write my thesis in English to showcase and improve my written language skill level. In summer 2010, I graduated from Tampere University of Technology with a <b>Master of Science in Tehnology</b> degree, a major in <b>Hypermedia</b> and a minor in <b>Software Engineering</b>.
                 </p>
+                {linkToIntro}
             </section>
             <section id="section-professional">
                 <h2>Start of a software professional&apos;s career</h2>
@@ -179,6 +190,7 @@ export default function NarrativeCV() {
                 <p>
                     The message wall service I worked on at the university kicked off a spin-off project with a company that was interested in the idea. While still working at the university for most of the time, I took a part time job at <ExternalLink href="https://www.mediamaisteri.com/en/">Mediamaisteri</ExternalLink> in 2012 to further develop and market it as a service called Conexting and later Conex First. I did several trips around Finland with our sales representative to demonstrate the service to various organisations, while developing it based on the discussions we had with clients. In my time at Mediamaisteri, I implemented a self-service version of the service with payment integration, and some custom deployments for bigger clients.
                 </p>
+                {linkToIntro}
             </section>
 
             <section id="section-freelance">
@@ -248,6 +260,7 @@ export default function NarrativeCV() {
                 <p>
                     Another larger freelance project was a web system for <b>ITK</b>, a yearly conference in Finland with over a thousand participants and hundreds of submissions to the Call For Papers (CFP). I first worked on the online conference programme as part of my job at University of Tampere, but later built a more comprehensice conference management system that included receiving CFP submissions, managing their peer review and approval process, planning and building the conference programme and an attendee tool for building a personalized conference schedule. The system was built together with the conference organizers, and was a key part in managing the conference between 2012 and 2017. It was built with <b>PHP</b> on top of <b>Yii</b>, <b>HTML</b> and <b>CSS</b> with various UI functions built with <b>JavaScript</b>, and a <b>MySQL</b> data storage.
                 </p>
+                {linkToIntro}
             </section>
 
             <section id="section-abroad">
@@ -284,6 +297,7 @@ export default function NarrativeCV() {
                 <p>
                     Several of the applications I worked on at Codify were focused on novel data visualizations. One of them was a tool that allowed visualizing and tagging a 3D environment based on a set of point cloud scenes generated from high-accuracy 360 degree photographs. I worked a bit on the main desktop application, but I was mostly focused on the web version that we started developing at the time. The browser application used <b>WebGL</b>-based <ExternalLink href="https://threejs.org/">three.js</ExternalLink> library to provide the 3D visualization using data from the API of the main application, without having to install anything on the end-user&apos;s machine. Another example of a system with a data visualization focus was an online ship route planning tool that used detailed ship schedules to animate the ships moving on a map over the globe, and detected if there was a risk of collision. The map was displayed using <ExternalLink href="https://leafletjs.com/">Leaflet</ExternalLink> and <ExternalLink href="https://www.openstreetmap.org/">OpenStreetMap</ExternalLink>.
                 </p>
+                {linkToIntro}
             </section>
 
             <section id="section-edinburgh">
@@ -319,6 +333,7 @@ export default function NarrativeCV() {
                 <p>
                     While working at Condatis, I was very vocal about the issues I saw in the processes and ways of working, in much of the same way as I was at Codify. I had several discussions with the company leadership where I would give earnest feedback (about the system, never about individuals) and highlight what I thought were the painpoints that held back myself and the team from delivering better results. Whether the issues were engineering-related or stemmed from business priorities, I felt the need to bring them up to drive positive change.
                 </p>
+                {linkToIntro}
             </section>
 
             <section id="section-academia">
@@ -385,6 +400,7 @@ export default function NarrativeCV() {
                 <p>
                     After the data collection for the projects was completed and the applications were no longer used, I set up simplified versions for demonstrating their functionality and design. The goal of these preview versions was to allow showing the application without having to set up a whole new environment each time, while keeping the running costs minimal, ideally free. I decided to use <b>Vercel</b> to run the front-end. I created a stub API for the e-reader using <b>Edge Functions</b> to allow myself to learn something new along the way.
                 </p>
+                {linkToIntro}
             </section>
 
             <section id="section-end-of-expat">
@@ -399,6 +415,7 @@ export default function NarrativeCV() {
                 <p>
                     My role at Infinity Works was more clearly an individual contributor and I didn&apos;t have any explicit management or lead responsibilities. However, when I rolled on the client, I soon started to look outside my team responsibilities to better understand the bigger picture. After noticing several areas with some room for improvement, such as cross-team communication, which affected my team as well as the overall goals of the client, I started to put more effort in making the client aware of the issues. While focusing mainly on the day-to-day development, I tried to help to keep the momentum going with the activities aiming to improve the ways of working. Although I think I did make a difference together with the Infinity Works team that worked with the client, I started to pile up the same fatigue as I did at Condatis when I felt I was spearheading the changes that were necessary. After just about a year, in summer 2023, I left Infinity Works in favour of focusing on myself and finding out what I really want to do next.
                 </p>
+                {linkToIntro}
             </section>
 
             <section id="section-next">
@@ -410,6 +427,7 @@ export default function NarrativeCV() {
                 <p>
                     The last part of my history starts when I move back to Finland, but that part is yet to be written, as it is yet to be lived. I have spent a couple of months looking into opportunities in Finland, trying to find a company that could truly be the place where I can feel that I belong, and where I can change and grow every day. The ultimate goal I have for my career is to learn, and as long as I&apos;m learning about things that I feel passionate about, I am sure to be on the right path.
                 </p>
+                {linkToIntro}
             </section>
 
             <p className={styles.attributions}>
