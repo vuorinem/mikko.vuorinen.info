@@ -69,6 +69,10 @@
     margin-bottom: 0;
 }
 
+.linkToIntro {
+    font-size: 0.9rem;
+}
+
 @media (min-width: 450px) {
     .narrativeCv p {
         text-align: justify;
