@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 import ExternalLink from "@/components/external-link"
 
@@ -28,9 +29,45 @@ export default function NarrativeCV() {
                 <p>
                     This is my <em>curriculum vitae</em> &ndash; in other words, the course of my life &ndash; in a narrative format. I have written it to put my experience into context, showing where it is rooted and how I have grown from it. While we may have same skills, everyone&apos;s story is different, and I believe that is what we should be valued for as professionals.
                 </p>
+
+                <h3>Storyline</h3>
+                <ul>
+                    <li>&#9617;&#9617;&#9617; - 1999: <Link href="#section-gaming">Gaming as a gateway to coding</Link></li>
+                    <li>1999 - 2002: <Link href="#section-internet">The Internet dream(weaver) awakens</Link></li>
+                    <li>2002 - 2006: <Link href="#section-university">The University years begin</Link></li>
+                    <li>2004 - 2007: <Link href="#section-web">Growing into a web developer</Link></li>
+                    <li>2007 - 2010: <Link href="#section-adult">Growing into an adult human</Link></li>
+                    <li>
+                        2010 - 2014: <Link href="#section-professional">Start of a software professional&apos;s career</Link>
+                        <ul>
+                            <li><Link href="#casestudy-opeka">Case study: Opeka</Link></li>
+                        </ul>
+                    </li>
+                    <li>
+                        1999 - 2017: <Link href="#section-freelance">Early career freelancing and personal projects</Link>
+                        <ul>
+                            <li><Link href="#casestudy-lahjalista">Case study: Lahjalista.net</Link></li>
+                        </ul>
+                    </li>
+                    <li>
+                        2013 - 2019: <Link href="#section-abroad">Changing the scenery - Moving abroad</Link>
+                        <ul>
+                            <li><Link href="#casestudy-riskmanagement">Case study: Risk management application</Link></li>
+                        </ul>
+                    </li>
+                    <li>2019 - 2022: <Link href="#section-edinburgh">Focusing on IAM in the Scottish capital</Link></li>
+                    <li>
+                        2018 - 2023: <Link href="#section-academia">Academia strikes back: Freelancing to support a research project</Link>
+                        <ul>
+                            <li><Link href="#casestudy-siriusreader">Case study: Sirius Reader</Link></li>
+                        </ul>
+                    </li>
+                    <li>2022 - 2023: <Link href="#section-end-of-expat">The end of the expat</Link></li>
+                    <li>2023 - &#9617;&#9617;&#9617;: <Link href="#section-next">The next chapter</Link></li>
+                </ul>
             </section>
 
-            <section>
+            <section id="section-gaming">
                 <h2>Gaming as a gateway to coding</h2>
                 <h4>From the very beginning, years &#9608;&#9608;&#9608;&#9608; to 1999</h4>
                 <div className={styles.borderedImage}>
@@ -46,7 +83,7 @@ export default function NarrativeCV() {
                 </p>
             </section>
 
-            <section>
+            <section id="section-internet">
                 <h2>The Internet dream(weaver) awakens</h2>
                 <h4>Senior high, from 1999 to 2002</h4>
                 <div className={styles.borderedImage}>
@@ -62,7 +99,7 @@ export default function NarrativeCV() {
                     In the following years I started working occasionally for my father&apos;s company, providing technical support and doing small coding tasks for his clients such as the car dealer above. For example, combining my experience with VB and the web, I used <ExternalLink href="https://en.wikipedia.org/wiki/Visual_Basic_for_Applications">VBA</ExternalLink> to automate data retrieval processes between Excel spreadsheets and external systems. It was probably the first times for me to build any kind of system integration. There is a certain excitement in making two systems talk to each other that is unique, I wonder if it has something to do with making existing systems work together to do more than what they were built to do. As I soon learned, integrating systems also has its unique challenges, which I have continued to learn about throughout my career.
                 </p>
             </section>
-            <section>
+            <section id="section-university">
                 <h2>The University years begin</h2>
                 <h4>From entering university at 2002 to about 2006</h4>
                 <p>
@@ -72,7 +109,7 @@ export default function NarrativeCV() {
                     In the second year, however, I started to wonder if the road I had chosen would take me to my goal, which was still to be a game programmer. The university course was heavy on theory and didn&apos;t have many classes specifically for building games. When my cousin with similar goals was applying to university and chose one in Tampere that was more suitable for game programming career, I decided to apply as well. We ended up starting our course in <b>Tampere University of Technology</b> (now part of <ExternalLink href="https://www.tuni.fi/en">Tampere University</ExternalLink>) at the same time in 2004. But during my studies there, I ended up leaning more towards methodologies and architecture instead of game-specific classes, and found topics like computer graphics challenging and not as interesting as I had anticipated. By the time we had to choose our major, I had come to a conclusion that game programming was not for me. I loved playing games more than ever, and I did contribute some code to game projects that my cousin was working on, but I had found my passion elsewhere.
                 </p>
             </section>
-            <section>
+            <section id="section-web">
                 <h2>Growing into a web developer</h2>
                 <h4>Somewhere between 2004 and 2007</h4>
                 <p>
@@ -91,7 +128,7 @@ export default function NarrativeCV() {
                     At a later stage of my university studies, it became clear that I wanted to dedicate most of my time to work with the internet and online systems of some sort. I chose <b>hypermedia</b> as my major, as I was interested in the theoretical aspects of modelling networks of data as well as the applied aspect of implementing systems using hypermedia tools. I might not use <ExternalLink href="https://en.wikipedia.org/wiki/Resource_Description_Framework">RDF</ExternalLink> or <ExternalLink href="https://en.wikipedia.org/wiki/Web_Ontology_Language">OWL</ExternalLink> much nowadays, but they were an important part in building my understanding about <b>semantic data</b> and <b>markup languages</b>, as well as the <ExternalLink href="https://en.wikipedia.org/wiki/World_Wide_Web_Consortium">W3C</ExternalLink> and various standartization processes of web technologies.
                 </p>
             </section>
-            <section>
+            <section id="section-adult">
                 <h2>Growing into an adult human</h2>
                 <h4>From world travels in 2007 until graduation at 2010</h4>
                 <p>
@@ -107,7 +144,7 @@ export default function NarrativeCV() {
                     After returning to Finland, the remainder of my university time consisted mostly of bigger group projects and the MSc Thesis. The group work gave me a glimpse into working on an actual project with a set goal and a team to achieve that goal, whereas the thesis required an academic approach with the associated background research and a rigorous writing process. I decided to write my thesis in English to showcase and improve my written language skill level. In summer 2010, I graduated from Tampere University of Technology with a <b>Master of Science in Tehnology</b> degree, a major in <b>Hypermedia</b> and a minor in <b>Software Engineering</b>.
                 </p>
             </section>
-            <section>
+            <section id="section-professional">
                 <h2>Start of a software professional&apos;s career</h2>
                 <h4>Working for University of Tampere from 2010 to 2014</h4>
                 <p>
@@ -144,7 +181,7 @@ export default function NarrativeCV() {
                 </p>
             </section>
 
-            <section>
+            <section id="section-freelance">
                 <h2>Early career freelancing and personal projects</h2>
                 <h4>During spare time all the way from 1999 until about 2017 (and still sometimes)</h4>
                 <p>
@@ -213,7 +250,7 @@ export default function NarrativeCV() {
                 </p>
             </section>
 
-            <section>
+            <section id="section-abroad">
                 <h2>Changing the scenery - Moving abroad</h2>
                 <h4>Life in Leicester in 2013 and in Aberdeen from 2014 to 2019</h4>
                 <p>
@@ -249,7 +286,7 @@ export default function NarrativeCV() {
                 </p>
             </section>
 
-            <section>
+            <section id="section-edinburgh">
                 <h2>Focusing on IAM in the Scottish capital</h2>
                 <h4>Settling <em>in</em> Edinburgh, from 2019 to 2022</h4>
                 <div className={styles.borderedImage}>
@@ -284,7 +321,7 @@ export default function NarrativeCV() {
                 </p>
             </section>
 
-            <section>
+            <section id="section-academia">
                 <h2>Academia strikes back: Freelancing to support a research project</h2>
                 <h4>From 2018 to 2023</h4>
                 <p>
@@ -350,7 +387,7 @@ export default function NarrativeCV() {
                 </p>
             </section>
 
-            <section>
+            <section id="section-end-of-expat">
                 <h2>The end of the expat</h2>
                 <h4>The final years of living in the UK from 2022 to 2023</h4>
                 <p>
@@ -364,7 +401,7 @@ export default function NarrativeCV() {
                 </p>
             </section>
 
-            <section>
+            <section id="section-next">
                 <h2>The next chapter</h2>
                 <h4>From fall 2013 until <code>&#123;new Date().getFullYear()&#125;</code></h4>
                 <p>
