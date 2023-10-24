@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import { FaHandPointRight } from 'react-icons/fa';
 
 import { Project } from "@/data/portfolio/Project"
 import projectCollection from "@/data/portfolio/projects.json"
@@ -39,6 +40,7 @@ export default function Portfolio() {
                         {project.text ? <p className={styles.projectText}>{project.text}</p> : ""}
                         {project.link ? <p className={styles.projectLink}><ExternalLink href={project.link}>{project.link.replace(/https?:\\\\/, "")}</ExternalLink></p> : ""}
                         {project.start ? <p className={styles.projectDuration}>{GetDuration(project.start, project.end)}</p> : ""}
+                        {project.casestudy ? <p className={styles.casestudy}><Link href={`/narrative-cv#casestudy-${project.casestudy}`}>Case study <FaHandPointRight size="0.8rem" /></Link></p> : ""}
                         {project.tech ? <p className={styles.projectTech}>{GetTechTags(project.tech)}</p> : ""}
                     </div>
                 </div>
