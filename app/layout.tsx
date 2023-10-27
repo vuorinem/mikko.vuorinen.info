@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Analytics } from '@vercel/analytics/react'
 
 import Header from '@/components/header'
@@ -11,7 +11,11 @@ export const metadata: Metadata = {
   title: 'Mikko Vuorinen',
   description: 'Portfolio and personal website of software developer Mikko Vuorinen',
   icons: '/favicon.png',
-  viewport: 'width=device-width, initial-scale=1.0',
+}
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
