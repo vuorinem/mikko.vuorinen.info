@@ -9,6 +9,7 @@ import styles from './header.module.css'
 const headerFont = Waiting_for_the_Sunrise({
     subsets: ['latin'],
     weight: '400',
+    fallback: ['serif'],
   });
 
 export default function Header() {
