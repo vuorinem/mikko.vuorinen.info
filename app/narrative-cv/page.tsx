@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { FaChevronUp } from "react-icons/fa"
+import { FaChevronUp, FaSpinner } from "react-icons/fa"
 
 import ExternalLink from "@/components/external-link"
 
@@ -69,7 +69,9 @@ export default function NarrativeCV() {
                         </ul>
                     </li>
                     <li>2022 - 2023: <Link href="#section-end-of-expat">The end of the expat</Link></li>
-                    <li>2023 - &#9617;&#9617;&#9617;: <Link href="#section-next">The next chapter</Link></li>
+                    <li>2023 - 2024: <Link href="#section-next">The next chapter</Link></li>
+                    <li>2024 - 2025: <Link href="#section-culture-shock">The culture shock</Link></li>
+                    <li><Link href="#section-in-progress">In progress</Link></li>
                 </ul>
             </section>
 
@@ -420,12 +422,38 @@ export default function NarrativeCV() {
 
             <section id="section-next">
                 <h2>The next chapter</h2>
-                <h4>From fall 2013 until <code>&#123;new Date().getFullYear()&#125;</code></h4>
+                <h4>From fall 2023 until the end of the year</h4>
                 <p>
-                    Ever since I came across <ExternalLink href="https://futurice.com/lean-service-creation">Lean Service Creation</ExternalLink> from Futurice, I have felt a pull towards Finnish companies that are in the forefront of modern software building practices. Many companies of various sizes in Finland seem to have a strong focus on sustainability in all of its aspects, from employee well-being to software maintainability to environmental sustainability, without letting it all dwindle in search for maximizing profits. Feeling that I want to be part of it and see the reality of it myself, I am ready to come back after spending a decade abroad.
+                    Ever since I came across <ExternalLink href="https://futurice.com/lean-service-creation">Lean Service Creation</ExternalLink> from <b>Futurice</b>, I have felt a pull towards Finnish companies that are in the forefront of modern software building practices. Many companies of various sizes in Finland seemed to have a strong focus on <b>sustainability</b> in all of its aspects, from employee well-being to software maintainability to environmental sustainability, without letting it all dwindle in search for maximizing profits. Feeling that I wanted to be part of it and see the reality of it myself, I was ready to come back after spending a decade abroad.
                 </p>
                 <p>
-                    The last part of my history starts when I move back to Finland, but that part is yet to be written, as it is yet to be lived. I have spent a couple of months looking into opportunities in Finland, trying to find a company that could truly be the place where I can feel that I belong, and where I can change and grow every day. The ultimate goal I have for my career is to learn, and as long as I&apos;m learning about things that I feel passionate about, I am sure to be on the right path.
+                    For the next months, I focused on finding out what I really want my career to look like, and what is the best next step towards that. I looked into Finnish companies that I knew about, and I reached out to friends who had first-hand experience from software circles in Helsinki. Through one of them, I learned about <ExternalLink href="https://nitor.fi">Nitor</ExternalLink>, which after several applications, interviews and contemplation between offers I eventually decided to join. With my new contract signed just before the holidays, it was time to start packing.
+                </p>
+                <p>
+                    The next chapter in my history started with the move back to Finland.
+                </p>
+                {linkToIntro}
+            </section>
+
+            <section id="section-culture-shock">
+                <h2>The culture shock</h2>
+                <h4>From the beginning of 2024 until 2025 (and beyond?)</h4>
+                <p>
+                    There are some things that I learned about Finland only when I came back after living abroad for a long time. Both in positive and negative ways, it was a challenge to get used to living and working in Finland again. Or maybe &quot;again&quot; is not the right word, as I was in a very different place in my career and personal life. Having lived in countries like United Kingdom and Japan, it was funny to realize that <b>Helsinki</b> ended up being the biggest city I have moved to (so far).
+                </p>
+                <p>
+                    While I was still getting used to speaking Finnish in grocery stores and Kendo practices, I was already swept up into my first client role. I started working in the <b>banking and insurance</b> field for the first time, but there were plenty of things in the working environment and technologies that felt familiar from the start, with <b>Azure</b> and <b>.NET</b> as the main tools in the toolbox. I was part of a tribe that was building a <ExternalLink href="https://www.microsoft.com/en-us/dynamics-365">Dynamics</ExternalLink> solution that brought together users from different business units and data from various systems. My role was to build <b>integrations</b> for the needs of a specific business unit. Utilizing the platform built by the tribe on top of Azure, I learned about <b>Kafka</b> and <b>Dataverse</b>, as well as internal <b>APIs</b> and services. I also got more real-world experience with <b>Bicep</b>.
+                </p>
+                <p>
+                    After becoming familiar with the working environment, I started to see some challenges in the tribe's ways of working. Having experienced the difficulties of being the one pushing for change, I was worried about bringing things up, especially as a recently started consultant. But I soon realised that I was not alone in feeling the challenges or bringing them up with the client. After spending some time building various integrations for different business units, I moved to an <b>integration platform team</b> and participated in building the next generation of their Kafka integration capability. Once the work was done, the time was ripe for a re-organization within the tribe. Following our suggestion, a newly formed team took the ownership of all the integrations in the tribe, and I started working as a member of that team.
+                </p>
+                {linkToIntro}
+            </section>
+            <section id="section-in-progress">
+                <h2><FaSpinner /> In Progress</h2>
+                <h4>What am I currently doing?</h4>
+                <p>
+                    In my current position, I work with largely the same technologies as previously, but with a wider area of responsibility and more focus on maintainability and operation monitoring capabilities. I try to be a teammate that proactively helps others and the team. I want us to do our best now and even better tomorrow. I want to be able to show expertice in almost any technical area and produce high quality software.
                 </p>
                 {linkToIntro}
             </section>
