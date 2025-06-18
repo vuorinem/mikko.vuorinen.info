@@ -17,41 +17,6 @@
             ]
         },
         {
-            "name": "ereaderstudy",
-            "image": "ereaderstudy.png",
-            "imageDescription": "Screenshot from e-Reader Study",
-            "title": "e-Reader Study",
-            "text": "Data upload and questionnaire system for an e-Reader study",
-            "start": "2022",
-            "end": "",
-            "tech": [
-                "C#",
-                ".NET",
-                "Blazor",
-                "WASM",
-                "Azure"
-            ]
-        },
-        {
-            "name": "naturalreading",
-            "image": "naturalreading.png",
-            "imageDescription": "Screenshot from Sirius Reader",
-            "title": "Sirius Reader",
-            "casestudy": "siriusreader",
-            "text": "Web e-Reader for stydying reading on electonic devices",
-            "start": "2018",
-            "end": "",
-            "tech": [
-                "TypeScript",
-                "Aurelia",
-                "C#",
-                ".NET",
-                "SignalR",
-                "Azure",
-                "Vercel"
-            ]
-        },
-        {
             "name": "lahjalista",
             "image": "lahjalista.png",
             "imageDescription": "Screenshot from lahjalista.net",
@@ -319,6 +284,41 @@
         }
     ],
     "freelance": [
+        {
+            "name": "ereaderstudy",
+            "image": "ereaderstudy.png",
+            "imageDescription": "Screenshot from e-Reader Study",
+            "title": "e-Reader Study",
+            "text": "Data upload and questionnaire system for an e-Reader study",
+            "start": "2022",
+            "end": "",
+            "tech": [
+                "C#",
+                ".NET",
+                "Blazor",
+                "WASM",
+                "Azure"
+            ]
+        },
+        {
+            "name": "naturalreading",
+            "image": "naturalreading.png",
+            "imageDescription": "Screenshot from Sirius Reader",
+            "title": "Sirius Reader",
+            "casestudy": "siriusreader",
+            "text": "Web e-Reader for stydying reading on electonic devices",
+            "start": "2018",
+            "end": "",
+            "tech": [
+                "TypeScript",
+                "Aurelia",
+                "C#",
+                ".NET",
+                "SignalR",
+                "Azure",
+                "Vercel"
+            ]
+        },
         {
             "name": "donfilms",
             "image": "donfilms.png",
