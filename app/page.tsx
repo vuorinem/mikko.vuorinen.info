@@ -28,7 +28,7 @@ export default function Home() {
       <p className={styles.description}>
         Outside the software world, I practice
         {' '}<ExternalLink href="https://en.wikipedia.org/wiki/Kendo">kendo</ExternalLink>{' '}
-        several times a week as one of the coaches at my club. I especially enjoy competing
+        several times a week and sometimes coach practices at my club. I especially enjoy competing
         in kendo.
       </p>
 
