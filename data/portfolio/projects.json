@@ -39,6 +39,26 @@
     ],
     "employed": [
         {
+            "name": "d365integration",
+            "image": "placeholder.png",
+            "imageDescription": "Placeholder image",
+            "title": "Dynamics 365 integrations",
+            "text": "Azure-based integration platform and integration development for Dynamics 365",
+            "start": "2024",
+            "end": "2025",
+            "tech": [
+                "C#",
+                ".NET",
+                "Kafka",
+                "REST",
+                "Azure",
+                "ServiceBus",
+                "SQL",
+                "D365",
+                "Bicep"
+            ]
+        },
+        {
             "name": "migration",
             "image": "placeholder.png",
             "imageDescription": "Placeholder image",
